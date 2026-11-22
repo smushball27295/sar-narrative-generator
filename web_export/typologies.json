@@ -1,0 +1,306 @@
+[
+  {
+    "id": "STR",
+    "title": "Structuring of cash transactions",
+    "description": "Structuring is the practice of breaking cash transactions into smaller amounts so that no single transaction triggers the currency transaction report that United States institutions file for cash transactions above $10,000. Structuring is an offence in its own right, whatever the source of the funds. It usually appears as repeated cash deposits or withdrawals just below the threshold by one customer, on the same day or on consecutive days, sometimes at several branches.",
+    "source": "FinCEN guidance on structuring and currency transaction reporting; FFIEC BSA/AML examination manual, red flags appendix",
+    "indicators": [
+      {
+        "id": "STR-01",
+        "text": "Multiple cash deposits in amounts just below the $10,000 currency transaction reporting threshold"
+      },
+      {
+        "id": "STR-02",
+        "text": "Cash deposits by the same customer at several branches or ATMs on the same day or on consecutive days that together exceed the reporting threshold"
+      },
+      {
+        "id": "STR-03",
+        "text": "Cash activity that is inconsistent with the customer's stated occupation, income or expected account activity"
+      },
+      {
+        "id": "STR-04",
+        "text": "Customer asks about reporting or identification requirements, or changes or cancels a transaction after learning that a report would be filed"
+      },
+      {
+        "id": "STR-05",
+        "text": "Frequent cash purchases of monetary instruments such as cashier's checks or money orders in amounts below the $3,000 record-keeping threshold"
+      },
+      {
+        "id": "STR-06",
+        "text": "Repeated cash withdrawals just under the reporting threshold that together move a large sum out of the account in currency"
+      }
+    ],
+    "narrative_should_establish": [
+      "Who conducted the cash transactions and whether that person is the account holder",
+      "The number, amounts and dates of the cash transactions and their aggregate value",
+      "Which branches or ATMs were used and whether several were used on the same day",
+      "How the cash activity compares with the customer's occupation and expected activity"
+    ]
+  },
+  {
+    "id": "FUN",
+    "title": "Funnel account",
+    "description": "A funnel account is an individual or business account in one geographic area that receives multiple cash deposits, often in amounts below the cash reporting threshold, and from which the funds are withdrawn in a different geographic area with little time elapsing between the deposits and the withdrawals. The technique lets a criminal organisation move currency across the country without physically transporting it. Public advisories associate it with narcotics and smuggling proceeds and note that the withdrawn funds may then pay for goods in trade-based laundering schemes.",
+    "source": "FinCEN advisory on funnel accounts and trade-based money laundering",
+    "indicators": [
+      {
+        "id": "FUN-01",
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "id": "FUN-02",
+        "text": "Deposits made by individuals who are not account signers, often anonymous third parties who hold only the account number"
+      },
+      {
+        "id": "FUN-03",
+        "text": "Funds withdrawn in a different geographic area shortly after deposit, by ATM withdrawal, wire or check, leaving a low balance"
+      },
+      {
+        "id": "FUN-04",
+        "text": "Deposits kept below reporting or identification thresholds across many locations"
+      },
+      {
+        "id": "FUN-05",
+        "text": "Account holder has no evident business or personal reason for deposit activity spread across the country"
+      },
+      {
+        "id": "FUN-06",
+        "text": "Outgoing transfers from the account pay businesses unrelated to the account holder, for example exporters of goods"
+      }
+    ],
+    "narrative_should_establish": [
+      "Where the deposits were made relative to the branch where the account is held",
+      "Who made the deposits, if known, and whether they are signers on the account",
+      "How quickly and where the deposited funds were withdrawn or transferred",
+      "Whether the account holder has any stated reason for out-of-area deposits"
+    ]
+  },
+  {
+    "id": "RPM",
+    "title": "Rapid movement of funds through a pass-through account",
+    "description": "In a pass-through pattern an account acts as a conduit. Funds are wired in and wired out again on the same day or the next day in nearly equal amounts, the balance returns to a low level after each cycle, and the transfers have no apparent business purpose. The pattern is a layering technique: each hop adds distance between the funds and their origin.",
+    "source": "FFIEC BSA/AML examination manual, red flags appendix on funds transfers; FATF typology reports on wire transfer layering",
+    "indicators": [
+      {
+        "id": "RPM-01",
+        "text": "Incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount"
+      },
+      {
+        "id": "RPM-02",
+        "text": "Account balance returns close to zero after each cycle and the account shows little other activity"
+      },
+      {
+        "id": "RPM-03",
+        "text": "Wires originate from and are sent to parties with no apparent connection to the customer's line of business"
+      },
+      {
+        "id": "RPM-04",
+        "text": "Transfers routed through several accounts or foreign jurisdictions with no economic rationale"
+      },
+      {
+        "id": "RPM-05",
+        "text": "Wire amounts are large, round sums with vague or missing payment details"
+      },
+      {
+        "id": "RPM-06",
+        "text": "Volume of wire activity far exceeds what was anticipated when the account was opened"
+      }
+    ],
+    "narrative_should_establish": [
+      "The originators and beneficiaries of the wires and their relationship to the customer, if any",
+      "The timing of each inbound and outbound pair and how closely the amounts match",
+      "The jurisdictions the funds came from and went to",
+      "Whether the customer gave any business explanation or supporting documents"
+    ]
+  },
+  {
+    "id": "MUL",
+    "title": "Money mule account",
+    "description": "A money mule is a person who receives and moves illicit proceeds on behalf of others, knowingly or not. Mules are often recruited through job advertisements, social media or online relationships. Their personal accounts receive payments from fraud victims and the funds are quickly withdrawn in cash or forwarded by wire, remittance, person-to-person transfer or virtual currency, usually after the mule keeps a commission.",
+    "source": "FinCEN advisories on fraud schemes that describe money mule activity; public law-enforcement money mule awareness material",
+    "indicators": [
+      {
+        "id": "MUL-01",
+        "text": "A personal account, often newly opened, receives deposits or transfers from multiple unrelated individuals"
+      },
+      {
+        "id": "MUL-02",
+        "text": "Funds are withdrawn in cash or forwarded shortly after receipt, by wire, person-to-person transfer or remittance"
+      },
+      {
+        "id": "MUL-03",
+        "text": "The account holder retains a small portion of each incoming payment, consistent with a commission"
+      },
+      {
+        "id": "MUL-04",
+        "text": "Account activity is inconsistent with the holder's age, occupation or income, for example a student or unemployed person handling large sums"
+      },
+      {
+        "id": "MUL-05",
+        "text": "Incoming payments are later reported as fraudulent or unauthorised by the senders, or the sending institutions request recalls"
+      },
+      {
+        "id": "MUL-06",
+        "text": "The account holder cannot explain the source of funds or says they are acting for an employer or online acquaintance"
+      }
+    ],
+    "narrative_should_establish": [
+      "Who the account holder is and how long the account has been open",
+      "Who sent the funds, how many senders there were and whether they are related to the holder",
+      "How and how quickly the funds left the account and what share was retained",
+      "Any fraud reports, recall requests or explanations given by the account holder"
+    ]
+  },
+  {
+    "id": "TBM",
+    "title": "Trade-based money laundering",
+    "description": "Trade-based money laundering disguises criminal proceeds as payment for goods. Common techniques are over-invoicing and under-invoicing, invoicing the same shipment more than once, phantom shipments and misdescription of goods. Payments often arrive from third parties that are not party to the trade, and the documents do not agree with each other or with the customer's business.",
+    "source": "FATF typology reports on trade-based money laundering; FinCEN advisory on trade-based money laundering",
+    "indicators": [
+      {
+        "id": "TBM-01",
+        "text": "Payments for goods come from third parties that have no connection to the transaction or are not named in the trade documents"
+      },
+      {
+        "id": "TBM-02",
+        "text": "The price or quantity of goods on invoices is significantly inconsistent with market value, indicating over-invoicing or under-invoicing"
+      },
+      {
+        "id": "TBM-03",
+        "text": "The goods described are inconsistent with the customer's known line of business"
+      },
+      {
+        "id": "TBM-04",
+        "text": "The same shipment is invoiced more than once, or shipping documents such as bills of lading are missing or inconsistent"
+      },
+      {
+        "id": "TBM-05",
+        "text": "Trade payments are routed through jurisdictions with no apparent link to the origin or destination of the shipment"
+      },
+      {
+        "id": "TBM-06",
+        "text": "Payments arrive in round amounts or instalments that do not correspond to invoice values"
+      }
+    ],
+    "narrative_should_establish": [
+      "The goods, invoice values and named parties on the trade documents",
+      "Who actually paid and whether the payers appear on the documents",
+      "How payments received compare with the invoiced amounts",
+      "Whether the goods fit the customer's stated line of business and which jurisdictions were involved"
+    ]
+  },
+  {
+    "id": "SHL",
+    "title": "Shell company layering",
+    "description": "A shell company is a legal entity with no significant operations or assets. Shell companies have lawful uses, but they also allow funds to be moved through layers of entities that hide who owns and controls the money. Typical activity is a recently formed company whose account is funded and emptied by wire transfers with other legal entities, with payment details that are vague and no sign of ordinary business expenses.",
+    "source": "FinCEN guidance on money laundering risks related to shell companies; FATF reports on concealment of beneficial ownership",
+    "indicators": [
+      {
+        "id": "SHL-01",
+        "text": "Recently formed company with no visible operations: no payroll, premises, website or ordinary business expenses"
+      },
+      {
+        "id": "SHL-02",
+        "text": "Account funded and depleted by wire transfers to and from other legal entities, with few or no payments to recognisable suppliers or customers"
+      },
+      {
+        "id": "SHL-03",
+        "text": "Several companies share the same address, registered agent, directors or signers"
+      },
+      {
+        "id": "SHL-04",
+        "text": "Payment details are vague, for example \"consulting services\" or \"loan\", and the amounts are round"
+      },
+      {
+        "id": "SHL-05",
+        "text": "Transfers move among related entities in a circular pattern, with funds returning to the originator"
+      },
+      {
+        "id": "SHL-06",
+        "text": "Beneficial ownership is unclear or held through nominees, and wires involve jurisdictions known for corporate secrecy"
+      }
+    ],
+    "narrative_should_establish": [
+      "When and where the company was formed and what is known about its owners and operations",
+      "The entities on each side of the transfers and any shared addresses, agents or signers",
+      "The stated purpose of the payments and whether any documents support it",
+      "Whether funds returned to an earlier sender or moved in a circle"
+    ]
+  },
+  {
+    "id": "EFE",
+    "title": "Elder financial exploitation",
+    "description": "Elder financial exploitation is the illegal or improper use of an older adult's funds, property or assets. It is carried out by strangers through scams such as romance, lottery, technical support and government imposter schemes, and by trusted persons such as relatives, caregivers and fiduciaries. In account activity it shows up as a break from the customer's long-established pattern.",
+    "source": "FinCEN advisory on elder financial exploitation",
+    "indicators": [
+      {
+        "id": "EFE-01",
+        "text": "Sudden, uncharacteristic withdrawals or transfers from an older customer's account that depart from long-established patterns"
+      },
+      {
+        "id": "EFE-02",
+        "text": "New payees, wires to unfamiliar recipients, or purchases of gift cards or virtual currency that the customer has never made before"
+      },
+      {
+        "id": "EFE-03",
+        "text": "A new individual accompanies the customer, speaks for the customer, or has recently been added as a signer, joint owner or holder of a power of attorney"
+      },
+      {
+        "id": "EFE-04",
+        "text": "The customer appears distressed, coached or unable to explain a transaction, or mentions a prize, an investment, a romantic partner or an urgent demand for payment"
+      },
+      {
+        "id": "EFE-05",
+        "text": "Early closure of certificates of deposit or depletion of savings and retirement balances without regard to penalties"
+      },
+      {
+        "id": "EFE-06",
+        "text": "Change of address, new online banking enrolment or new debit card requested shortly before the unusual activity"
+      }
+    ],
+    "narrative_should_establish": [
+      "The customer's age and the account's normal pattern before the activity",
+      "What changed: the new payees, amounts, channels and dates",
+      "Any third party involved and that person's relationship to the customer",
+      "What the customer said about the transactions and any steps the institution took"
+    ]
+  },
+  {
+    "id": "VCO",
+    "title": "Virtual-currency off-ramp",
+    "description": "An off-ramp is the point where virtual currency is converted into ordinary money. Proceeds of fraud, ransomware or darknet sales are sold through exchanges or peer-to-peer traders, the payouts land in a bank account, and the funds are then withdrawn in cash or wired on. The bank sees only the last step, so the pattern of exchange payouts and what follows them carries most of the information.",
+    "source": "FinCEN advisory on illicit activity involving convertible virtual currency; FATF report on virtual asset red flag indicators",
+    "indicators": [
+      {
+        "id": "VCO-01",
+        "text": "Frequent or large transfers from virtual-currency exchanges into a bank account, followed by prompt cash withdrawals or outgoing wires"
+      },
+      {
+        "id": "VCO-02",
+        "text": "Customer receives funds from several exchanges or peer-to-peer trading platforms without a stated trading business or matching income"
+      },
+      {
+        "id": "VCO-03",
+        "text": "Customer appears to operate as an unregistered peer-to-peer exchanger: many small incoming payments from individuals matched by transfers to exchanges"
+      },
+      {
+        "id": "VCO-04",
+        "text": "Exchange payouts arrive soon after the account is opened or after a long period of dormancy"
+      },
+      {
+        "id": "VCO-05",
+        "text": "Proceeds are immediately wired abroad or moved to accounts of unrelated third parties"
+      },
+      {
+        "id": "VCO-06",
+        "text": "Customer is unable or unwilling to explain the source of the virtual currency, or blockchain analysis links it to mixers, darknet markets or ransomware"
+      }
+    ],
+    "narrative_should_establish": [
+      "Which exchanges paid the account, how often and in what amounts",
+      "What happened to the funds after each payout and how quickly",
+      "The customer's stated occupation and any explanation for holding virtual currency",
+      "Whether the customer also collects payments from individuals and sends funds to exchanges"
+    ]
+  }
+]

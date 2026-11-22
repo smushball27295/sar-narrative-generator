@@ -1,0 +1,5787 @@
+[
+  {
+    "id": "SYN-CASE-00042-STR",
+    "title": "Synthetic case 01: Structuring of cash transactions (individual subject)",
+    "typology_id": "STR",
+    "subject": {
+      "name": "Ysolde Thornbury",
+      "kind": "individual",
+      "detail": "age 29, retail supervisor, resident of Bellevue, WA"
+    },
+    "period": {
+      "start": "2025-08-28",
+      "end": "2025-09-30"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Ysolde Thornbury, individual, age 29, retail supervisor, resident of Bellevue, WA"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-198660, personal checking, opened 2018-05-29 at the Bellevue, WA branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-08-28 to 2025-09-30 (34 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "30"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "15 credits totalling $74,733.55"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "15 debits totalling $28,236.72"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$9,560.00 (cash deposit on 2025-09-14)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$4,700.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$3,080.00"
+      },
+      {
+        "id": "F10",
+        "label": "Cash deposits",
+        "value": "8 cash deposits totalling $67,290.00"
+      },
+      {
+        "id": "F11",
+        "label": "Cash deposits of at least $8,000.00 and under $10,000.00",
+        "value": "7 of 8"
+      },
+      {
+        "id": "F12",
+        "label": "Locations of cash deposits",
+        "value": "4 branches in 1 state: Bellevue, WA; Renton, WA; Seattle, WA; Tacoma, WA"
+      },
+      {
+        "id": "F13",
+        "label": "Days with two or more cash deposits",
+        "value": "2 days"
+      },
+      {
+        "id": "F14",
+        "label": "Cash withdrawals",
+        "value": "3 cash withdrawals totalling $25,300.00"
+      },
+      {
+        "id": "F15",
+        "label": "Cash withdrawals of at least $8,000.00 and under $10,000.00",
+        "value": "3 of 3"
+      },
+      {
+        "id": "F16",
+        "label": "Credits from individuals",
+        "value": "4 credits totalling $1,377.97 from 4 individuals"
+      },
+      {
+        "id": "F17",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "3 days"
+      },
+      {
+        "id": "F18",
+        "label": "Debits as a share of credits in the review period",
+        "value": "38%"
+      },
+      {
+        "id": "F19",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "15 transactions"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-08-31",
+        "type": "card_purchase",
+        "amount": 168.07,
+        "counterparty": "Grocery store",
+        "channel": "card",
+        "location": "Bellevue, WA"
+      },
+      {
+        "date": "2025-09-01",
+        "type": "ach_in",
+        "amount": 2021.86,
+        "counterparty": "Rookery Lane Schools",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-01",
+        "type": "cash_deposit",
+        "amount": 8680.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Bellevue, WA"
+      },
+      {
+        "date": "2025-09-04",
+        "type": "cash_deposit",
+        "amount": 8000.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Seattle, WA"
+      },
+      {
+        "date": "2025-09-04",
+        "type": "cash_deposit",
+        "amount": 7200.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Renton, WA"
+      },
+      {
+        "date": "2025-09-05",
+        "type": "card_purchase",
+        "amount": 183.18,
+        "counterparty": "Fuel station",
+        "channel": "card",
+        "location": "Bellevue, WA"
+      },
+      {
+        "date": "2025-09-05",
+        "type": "p2p_in",
+        "amount": 435.49,
+        "counterparty": "Petra Brackenridge",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-07",
+        "type": "card_purchase",
+        "amount": 155.43,
+        "counterparty": "Pharmacy",
+        "channel": "card",
+        "location": "Bellevue, WA"
+      },
+      {
+        "date": "2025-09-08",
+        "type": "cash_deposit",
+        "amount": 8620.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-09-09",
+        "type": "p2p_in",
+        "amount": 279.09,
+        "counterparty": "Lucan Quillfeather",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-10",
+        "type": "ach_out",
+        "amount": 1420.0,
+        "counterparty": "Landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-10",
+        "type": "cash_deposit",
+        "amount": 8080.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Renton, WA"
+      },
+      {
+        "date": "2025-09-11",
+        "type": "p2p_in",
+        "amount": 365.13,
+        "counterparty": "Thaddeus Thistlewood",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-12",
+        "type": "cash_deposit",
+        "amount": 8800.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-09-14",
+        "type": "ach_out",
+        "amount": 160.28,
+        "counterparty": "Utility company",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-14",
+        "type": "cash_deposit",
+        "amount": 9560.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-09-14",
+        "type": "cash_deposit",
+        "amount": 8350.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Bellevue, WA"
+      },
+      {
+        "date": "2025-09-15",
+        "type": "ach_in",
+        "amount": 2021.86,
+        "counterparty": "Rookery Lane Schools",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-16",
+        "type": "cash_withdrawal",
+        "amount": 9100.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Renton, WA"
+      },
+      {
+        "date": "2025-09-18",
+        "type": "card_purchase",
+        "amount": 187.32,
+        "counterparty": "Hardware store",
+        "channel": "card",
+        "location": "Bellevue, WA"
+      },
+      {
+        "date": "2025-09-20",
+        "type": "cash_withdrawal",
+        "amount": 8100.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Seattle, WA"
+      },
+      {
+        "date": "2025-09-20",
+        "type": "cash_withdrawal",
+        "amount": 8100.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-09-29",
+        "type": "ach_in",
+        "amount": 2021.86,
+        "counterparty": "Rookery Lane Schools",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-29",
+        "type": "card_purchase",
+        "amount": 166.31,
+        "counterparty": "Grocery store",
+        "channel": "card",
+        "location": "Bellevue, WA"
+      },
+      {
+        "date": "2025-09-30",
+        "type": "p2p_in",
+        "amount": 298.26,
+        "counterparty": "Lucan Ashgrove",
+        "channel": "p2p",
+        "location": "online"
+      }
+    ],
+    "query": "The account holder is a private individual who works as a retail supervisor.\nTurnover was many times higher than the customer told the bank to expect.\nCash was paid in at the counter many times.\nMost of the cash deposits were for a little under $10,000 each.\nOn some days cash was deposited more than once.\nSeveral different branches were used.\nCash was withdrawn many times.\nMost of the withdrawals were for a little under $10,000 each.\nExpected monthly activity stated at account opening: $4,700.00\nAverage monthly debits in the six months before the review period: $3,080.00\nCash deposits: 8 cash deposits totalling $67,290.00\nCash deposits of at least $8,000.00 and under $10,000.00: 7 of 8\nLocations of cash deposits: 4 branches in 1 state: Bellevue, WA; Renton, WA; Seattle, WA; Tacoma, WA\nDays with two or more cash deposits: 2 days\nCash withdrawals: 3 cash withdrawals totalling $25,300.00\nCash withdrawals of at least $8,000.00 and under $10,000.00: 3 of 3\nCredits from individuals: 4 credits totalling $1,377.97 from 4 individuals\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 3 days",
+    "retrieved": [
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.2086,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "STR-01",
+        "typology_id": "STR",
+        "score": 0.1651,
+        "text": "Multiple cash deposits in amounts just below the $10,000 currency transaction reporting threshold"
+      },
+      {
+        "chunk_id": "STR-02",
+        "typology_id": "STR",
+        "score": 0.1474,
+        "text": "Cash deposits by the same customer at several branches or ATMs on the same day or on consecutive days that together exceed the reporting threshold"
+      },
+      {
+        "chunk_id": "STR-00",
+        "typology_id": "STR",
+        "score": 0.1213,
+        "text": "Structuring is the practice of breaking cash transactions into smaller amounts so that no single transaction triggers the currency transaction report that United States institutions file for cash transactions above $10,000. Structuring is an offence in its own right, whatever the source of the funds. It usually appears as repeated cash deposits or withdrawals just below the threshold by one customer, on the same day or on consecutive days, sometimes at several branches."
+      },
+      {
+        "chunk_id": "FUN-00",
+        "typology_id": "FUN",
+        "score": 0.1141,
+        "text": "A funnel account is an individual or business account in one geographic area that receives multiple cash deposits, often in amounts below the cash reporting threshold, and from which the funds are withdrawn in a different geographic area with little time elapsing between the deposits and the withdrawals. The technique lets a criminal organisation move currency across the country without physically transporting it. Public advisories associate it with narcotics and smuggling proceeds and note that the withdrawn funds may then pay for goods in trade-based laundering schemes."
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "STR",
+        "score": 0.1373
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.1343
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0488
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0487
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0268
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0149
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0041
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0018
+      }
+    ],
+    "written_for": "STR",
+    "references": [
+      "STR-00",
+      "STR-01",
+      "STR-02",
+      "STR-06"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Ysolde Thornbury, individual, age 29, retail supervisor, resident of Bellevue, WA.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "In that period the account received 15 credits totalling $74,733.55 and paid out 15 debits totalling $28,236.72.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $9,560.00 (cash deposit on 2025-09-14).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-08-28 to 2025-09-30 (34 days), during which the account recorded 30 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-198660, personal checking, opened 2018-05-29 at the Bellevue, WA branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "The cash deposits were made at 4 branches in 1 state: Bellevue, WA; Renton, WA; Seattle, WA; Tacoma, WA.",
+        "citations": [
+          "F12"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $4,700.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Structuring of cash transactions.",
+        "citations": [
+          "STR-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: multiple cash deposits in amounts just below the $10,000 currency transaction reporting threshold.",
+        "citations": [
+          "STR-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: cash deposits by the same customer at several branches or ATMs on the same day or on consecutive days that together exceed the reporting threshold.",
+        "citations": [
+          "STR-02"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: repeated cash withdrawals just under the reporting threshold that together move a large sum out of the account in currency.",
+        "citations": [
+          "STR-06"
+        ]
+      },
+      {
+        "text": "Cash came in through 8 cash deposits totalling $67,290.00.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "Of the cash deposits, 7 of 8 were for at least $8,000.00 and under $10,000.00.",
+        "citations": [
+          "F11"
+        ]
+      },
+      {
+        "text": "Two or more cash deposits were made on the same day on 2 days.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "Of the cash withdrawals, 3 of 3 were for at least $8,000.00 and under $10,000.00.",
+        "citations": [
+          "F15"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00043-FUN",
+    "title": "Synthetic case 02: Funnel account (individual subject)",
+    "typology_id": "FUN",
+    "subject": {
+      "name": "Lucan Fennimore",
+      "kind": "individual",
+      "detail": "age 53, warehouse worker, resident of Atlanta, GA"
+    },
+    "period": {
+      "start": "2025-03-19",
+      "end": "2025-04-26"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Lucan Fennimore, individual, age 53, warehouse worker, resident of Atlanta, GA"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-711670, personal checking, opened 2016-12-10 at the Atlanta, GA branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-03-19 to 2025-04-26 (39 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "46"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "20 credits totalling $94,647.48"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "26 debits totalling $88,558.88"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$9,700.00 (cash deposit on 2025-04-08, counterparty unidentified third party)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$4,100.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$2,180.00"
+      },
+      {
+        "id": "F10",
+        "label": "Cash deposits",
+        "value": "17 cash deposits totalling $90,720.00"
+      },
+      {
+        "id": "F11",
+        "label": "Cash deposits of at least $8,000.00 and under $10,000.00",
+        "value": "3 of 17"
+      },
+      {
+        "id": "F12",
+        "label": "Locations of cash deposits",
+        "value": "8 branches in 5 states: Atlanta, GA; Aurora, IL; Cicero, IL; Doral, FL; El Cajon, CA; Hialeah, FL; Homestead, FL; Mesa, AZ"
+      },
+      {
+        "id": "F13",
+        "label": "Cash deposits made outside GA, the home state of the account",
+        "value": "14 of 17"
+      },
+      {
+        "id": "F14",
+        "label": "Cash deposits made by someone other than the account holder",
+        "value": "13 of 17"
+      },
+      {
+        "id": "F15",
+        "label": "Days with two or more cash deposits",
+        "value": "3 days"
+      },
+      {
+        "id": "F16",
+        "label": "Cash withdrawals",
+        "value": "15 cash withdrawals totalling $86,820.00"
+      },
+      {
+        "id": "F17",
+        "label": "Cash withdrawals of at least $8,000.00 and under $10,000.00",
+        "value": "3 of 15"
+      },
+      {
+        "id": "F18",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "0 days"
+      },
+      {
+        "id": "F19",
+        "label": "Debits as a share of credits in the review period",
+        "value": "94%"
+      },
+      {
+        "id": "F20",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "14 transactions"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "type": "cash_deposit",
+        "amount": 3300.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-03-23",
+        "type": "cash_deposit",
+        "amount": 3720.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Hialeah, FL"
+      },
+      {
+        "date": "2025-03-25",
+        "type": "cash_deposit",
+        "amount": 4500.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Cicero, IL"
+      },
+      {
+        "date": "2025-03-27",
+        "type": "cash_deposit",
+        "amount": 4600.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Cicero, IL"
+      },
+      {
+        "date": "2025-03-29",
+        "type": "cash_deposit",
+        "amount": 8480.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "El Cajon, CA"
+      },
+      {
+        "date": "2025-03-31",
+        "type": "cash_deposit",
+        "amount": 6920.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Doral, FL"
+      },
+      {
+        "date": "2025-04-01",
+        "type": "cash_deposit",
+        "amount": 5900.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "El Cajon, CA"
+      },
+      {
+        "date": "2025-04-01",
+        "type": "cash_withdrawal",
+        "amount": 6700.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-01",
+        "type": "cash_withdrawal",
+        "amount": 5300.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-02",
+        "type": "cash_withdrawal",
+        "amount": 5200.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-02",
+        "type": "cash_withdrawal",
+        "amount": 6100.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-03",
+        "type": "cash_withdrawal",
+        "amount": 8660.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-04",
+        "type": "cash_deposit",
+        "amount": 7980.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Homestead, FL"
+      },
+      {
+        "date": "2025-04-06",
+        "type": "cash_deposit",
+        "amount": 6700.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Cicero, IL"
+      },
+      {
+        "date": "2025-04-06",
+        "type": "cash_deposit",
+        "amount": 7840.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Hialeah, FL"
+      },
+      {
+        "date": "2025-04-06",
+        "type": "cash_withdrawal",
+        "amount": 6700.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-06",
+        "type": "cash_withdrawal",
+        "amount": 8600.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-06",
+        "type": "cash_deposit",
+        "amount": 3660.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Aurora, IL"
+      },
+      {
+        "date": "2025-04-07",
+        "type": "cash_withdrawal",
+        "amount": 6960.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-08",
+        "type": "cash_withdrawal",
+        "amount": 5760.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-08",
+        "type": "cash_deposit",
+        "amount": 8580.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "El Cajon, CA"
+      },
+      {
+        "date": "2025-04-08",
+        "type": "cash_deposit",
+        "amount": 9700.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-08",
+        "type": "cash_withdrawal",
+        "amount": 8200.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-08",
+        "type": "cash_withdrawal",
+        "amount": 5300.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      },
+      {
+        "date": "2025-04-09",
+        "type": "cash_withdrawal",
+        "amount": 6700.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Atlanta, GA"
+      }
+    ],
+    "query": "The account holder is a private individual who works as a warehouse worker.\nTurnover was many times higher than the customer told the bank to expect.\nCash was paid in at the counter many times.\nOn some days cash was deposited more than once.\nSeveral different branches were used.\nMost of the cash was deposited in other states, a long way from the customer's home branch.\nMuch of the cash was paid in by people who are not the account holder.\nCash was withdrawn many times.\nMoney left the account within a day or so of arriving, and very little stayed behind.\nExpected monthly activity stated at account opening: $4,100.00\nAverage monthly debits in the six months before the review period: $2,180.00\nCash deposits: 17 cash deposits totalling $90,720.00\nCash deposits of at least $8,000.00 and under $10,000.00: 3 of 17\nLocations of cash deposits: 8 branches in 5 states: Atlanta, GA; Aurora, IL; Cicero, IL; Doral, FL; El Cajon, CA; Hialeah, FL; Homestead, FL; Mesa, AZ\nCash deposits made outside GA, the home state of the account: 14 of 17\nCash deposits made by someone other than the account holder: 13 of 17\nDays with two or more cash deposits: 3 days\nCash withdrawals: 15 cash withdrawals totalling $86,820.00\nCash withdrawals of at least $8,000.00 and under $10,000.00: 3 of 15\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 0 days",
+    "retrieved": [
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.2489,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "STR-02",
+        "typology_id": "STR",
+        "score": 0.1601,
+        "text": "Cash deposits by the same customer at several branches or ATMs on the same day or on consecutive days that together exceed the reporting threshold"
+      },
+      {
+        "chunk_id": "STR-01",
+        "typology_id": "STR",
+        "score": 0.1402,
+        "text": "Multiple cash deposits in amounts just below the $10,000 currency transaction reporting threshold"
+      },
+      {
+        "chunk_id": "STR-00",
+        "typology_id": "STR",
+        "score": 0.1109,
+        "text": "Structuring is the practice of breaking cash transactions into smaller amounts so that no single transaction triggers the currency transaction report that United States institutions file for cash transactions above $10,000. Structuring is an offence in its own right, whatever the source of the funds. It usually appears as repeated cash deposits or withdrawals just below the threshold by one customer, on the same day or on consecutive days, sometimes at several branches."
+      },
+      {
+        "chunk_id": "FUN-00",
+        "typology_id": "FUN",
+        "score": 0.1056,
+        "text": "A funnel account is an individual or business account in one geographic area that receives multiple cash deposits, often in amounts below the cash reporting threshold, and from which the funds are withdrawn in a different geographic area with little time elapsing between the deposits and the withdrawals. The technique lets a criminal organisation move currency across the country without physically transporting it. Public advisories associate it with narcotics and smuggling proceeds and note that the withdrawn funds may then pay for goods in trade-based laundering schemes."
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "FUN",
+        "score": 0.138
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.1279
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0588
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0525
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0327
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.021
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0077
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0062
+      }
+    ],
+    "written_for": "FUN",
+    "references": [
+      "FUN-00",
+      "FUN-01",
+      "FUN-05",
+      "FUN-02"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Lucan Fennimore, individual, age 53, warehouse worker, resident of Atlanta, GA.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "Of the cash deposits, 13 of 17 were made by someone other than the account holder.",
+        "citations": [
+          "F14"
+        ]
+      },
+      {
+        "text": "In that period the account received 20 credits totalling $94,647.48 and paid out 26 debits totalling $88,558.88.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $9,700.00 (cash deposit on 2025-04-08, counterparty unidentified third party).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-03-19 to 2025-04-26 (39 days), during which the account recorded 46 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-711670, personal checking, opened 2016-12-10 at the Atlanta, GA branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "Of the cash deposits, 14 of 17 were made outside GA, the home state of the account.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "The cash deposits were made at 8 branches in 5 states: Atlanta, GA; Aurora, IL; Cicero, IL; Doral, FL; El Cajon, CA; Hialeah, FL; Homestead, FL; Mesa, AZ.",
+        "citations": [
+          "F12"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $4,100.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Funnel account.",
+        "citations": [
+          "FUN-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works.",
+        "citations": [
+          "FUN-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: account holder has no evident business or personal reason for deposit activity spread across the country.",
+        "citations": [
+          "FUN-05"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: deposits made by individuals who are not account signers, often anonymous third parties who hold only the account number.",
+        "citations": [
+          "FUN-02"
+        ]
+      },
+      {
+        "text": "Cash came in through 17 cash deposits totalling $90,720.00.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "Cash left the account through 15 cash withdrawals totalling $86,820.00.",
+        "citations": [
+          "F16"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 0 days.",
+        "citations": [
+          "F18"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00044-RPM",
+    "title": "Synthetic case 03: Rapid movement of funds through a pass-through account (individual subject)",
+    "typology_id": "RPM",
+    "subject": {
+      "name": "Wilhelmina Marrowby",
+      "kind": "individual",
+      "detail": "age 41, bus mechanic, resident of Gilbert, AZ"
+    },
+    "period": {
+      "start": "2025-01-09",
+      "end": "2025-02-08"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Wilhelmina Marrowby, individual, age 41, bus mechanic, resident of Gilbert, AZ"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-565053, personal checking, opened 2016-01-22 at the Gilbert, AZ branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-01-09 to 2025-02-08 (31 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "24"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "7 credits totalling $573,701.74"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "17 debits totalling $569,428.46"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$235,991.78 (incoming wire on 2025-01-10, counterparty Sablewood Ventures LLC)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$5,200.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$3,080.00"
+      },
+      {
+        "id": "F10",
+        "label": "Incoming wires",
+        "value": "5 incoming wires totalling $569,991.78 from 2 senders"
+      },
+      {
+        "id": "F11",
+        "label": "Outgoing wires",
+        "value": "5 outgoing wires totalling $566,423.86 to 3 beneficiaries"
+      },
+      {
+        "id": "F12",
+        "label": "Largest wire counterparties by value",
+        "value": "Sablewood Ventures LLC; Copperline Textiles Co; Sablewood Trading LLC"
+      },
+      {
+        "id": "F13",
+        "label": "Wire counterparty locations outside the United States",
+        "value": "Mexico City, Mexico; Shenzhen, China; Toronto, Canada"
+      },
+      {
+        "id": "F14",
+        "label": "Wires for a whole number of thousands of dollars",
+        "value": "4 of 10"
+      },
+      {
+        "id": "F15",
+        "label": "Payees first paid during the review period",
+        "value": "3 payees receiving $566,423.86: Copperline Textiles Co; Sablewood Holdings LLC; Sablewood Trading LLC"
+      },
+      {
+        "id": "F16",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "0 days"
+      },
+      {
+        "id": "F17",
+        "label": "Debits as a share of credits in the review period",
+        "value": "99%"
+      },
+      {
+        "id": "F18",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "14 transactions"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-01-09",
+        "type": "card_purchase",
+        "amount": 140.75,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-10",
+        "type": "ach_out",
+        "amount": 1765.0,
+        "counterparty": "Landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-10",
+        "type": "card_purchase",
+        "amount": 63.44,
+        "counterparty": "Fuel station",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-10",
+        "type": "card_purchase",
+        "amount": 178.04,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-10",
+        "type": "wire_in",
+        "amount": 235991.78,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Doral, FL"
+      },
+      {
+        "date": "2025-01-10",
+        "type": "wire_out",
+        "amount": 233631.86,
+        "counterparty": "Copperline Textiles Co",
+        "channel": "wire",
+        "location": "Shenzhen, China"
+      },
+      {
+        "date": "2025-01-12",
+        "type": "wire_in",
+        "amount": 68000.0,
+        "counterparty": "Harrowfield Imports Ltd",
+        "channel": "wire",
+        "location": "Miami, FL"
+      },
+      {
+        "date": "2025-01-13",
+        "type": "wire_out",
+        "amount": 67660.0,
+        "counterparty": "Sablewood Holdings LLC",
+        "channel": "wire",
+        "location": "Toronto, Canada"
+      },
+      {
+        "date": "2025-01-15",
+        "type": "ach_out",
+        "amount": 140.28,
+        "counterparty": "Utility company",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-16",
+        "type": "card_purchase",
+        "amount": 74.9,
+        "counterparty": "Pharmacy",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-16",
+        "type": "wire_in",
+        "amount": 156000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Doral, FL"
+      },
+      {
+        "date": "2025-01-17",
+        "type": "card_purchase",
+        "amount": 53.44,
+        "counterparty": "Fuel station",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-17",
+        "type": "card_purchase",
+        "amount": 50.5,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-17",
+        "type": "wire_out",
+        "amount": 155688.0,
+        "counterparty": "Sablewood Trading LLC",
+        "channel": "wire",
+        "location": "Mexico City, Mexico"
+      },
+      {
+        "date": "2025-01-21",
+        "type": "ach_in",
+        "amount": 1854.98,
+        "counterparty": "Willowmere Diner Group",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-22",
+        "type": "card_purchase",
+        "amount": 186.16,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-24",
+        "type": "card_purchase",
+        "amount": 14.6,
+        "counterparty": "Hardware store",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-01-30",
+        "type": "wire_in",
+        "amount": 68000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Doral, FL"
+      },
+      {
+        "date": "2025-01-30",
+        "type": "wire_out",
+        "amount": 67864.0,
+        "counterparty": "Sablewood Holdings LLC",
+        "channel": "wire",
+        "location": "Toronto, Canada"
+      },
+      {
+        "date": "2025-02-01",
+        "type": "card_purchase",
+        "amount": 158.1,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      },
+      {
+        "date": "2025-02-03",
+        "type": "wire_in",
+        "amount": 42000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Doral, FL"
+      },
+      {
+        "date": "2025-02-03",
+        "type": "wire_out",
+        "amount": 41580.0,
+        "counterparty": "Copperline Textiles Co",
+        "channel": "wire",
+        "location": "Shenzhen, China"
+      },
+      {
+        "date": "2025-02-04",
+        "type": "ach_in",
+        "amount": 1854.98,
+        "counterparty": "Willowmere Diner Group",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-05",
+        "type": "card_purchase",
+        "amount": 179.39,
+        "counterparty": "Grocery store",
+        "channel": "card",
+        "location": "Gilbert, AZ"
+      }
+    ],
+    "query": "The account holder is a private individual who works as a bus mechanic.\nTurnover was many times higher than the customer told the bank to expect.\nLarge wires came in and large wires went out.\nSome wires went to or came from other countries.\nMoney left the account within a day or so of arriving, and very little stayed behind.\nSpending rose far above the customer's usual level and went to payees the customer had never paid before.\nExpected monthly activity stated at account opening: $5,200.00\nAverage monthly debits in the six months before the review period: $3,080.00\nIncoming wires: 5 incoming wires totalling $569,991.78 from 2 senders\nOutgoing wires: 5 outgoing wires totalling $566,423.86 to 3 beneficiaries\nWire counterparty locations outside the United States: Mexico City, Mexico; Shenzhen, China; Toronto, Canada\nWires for a whole number of thousands of dollars: 4 of 10\nPayees first paid during the review period: 3 payees receiving $566,423.86: Copperline Textiles Co; Sablewood Holdings LLC; Sablewood Trading LLC\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 0 days",
+    "retrieved": [
+      {
+        "chunk_id": "RPM-01",
+        "typology_id": "RPM",
+        "score": 0.1248,
+        "text": "Incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount"
+      },
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.0863,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "VCO-01",
+        "typology_id": "VCO",
+        "score": 0.0801,
+        "text": "Frequent or large transfers from virtual-currency exchanges into a bank account, followed by prompt cash withdrawals or outgoing wires"
+      },
+      {
+        "chunk_id": "RPM-06",
+        "typology_id": "RPM",
+        "score": 0.0745,
+        "text": "Volume of wire activity far exceeds what was anticipated when the account was opened"
+      },
+      {
+        "chunk_id": "EFE-02",
+        "typology_id": "EFE",
+        "score": 0.0587,
+        "text": "New payees, wires to unfamiliar recipients, or purchases of gift cards or virtual currency that the customer has never made before"
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "RPM",
+        "score": 0.0816
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0738
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0706
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0497
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.0377
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0364
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0295
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0261
+      }
+    ],
+    "written_for": "RPM",
+    "references": [
+      "RPM-00",
+      "RPM-01",
+      "RPM-06",
+      "RPM-05"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Wilhelmina Marrowby, individual, age 41, bus mechanic, resident of Gilbert, AZ.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "The largest wire counterparties by value were Sablewood Ventures LLC; Copperline Textiles Co; Sablewood Trading LLC.",
+        "citations": [
+          "F12"
+        ]
+      },
+      {
+        "text": "In that period the account received 7 credits totalling $573,701.74 and paid out 17 debits totalling $569,428.46.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $235,991.78 (incoming wire on 2025-01-10, counterparty Sablewood Ventures LLC).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-01-09 to 2025-02-08 (31 days), during which the account recorded 24 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-565053, personal checking, opened 2016-01-22 at the Gilbert, AZ branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "Wire counterparties outside the United States were located in Mexico City, Mexico; Shenzhen, China; Toronto, Canada.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $5,200.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Rapid movement of funds through a pass-through account.",
+        "citations": [
+          "RPM-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount.",
+        "citations": [
+          "RPM-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: volume of wire activity far exceeds what was anticipated when the account was opened.",
+        "citations": [
+          "RPM-06"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: wire amounts are large, round sums with vague or missing payment details.",
+        "citations": [
+          "RPM-05"
+        ]
+      },
+      {
+        "text": "The account received 5 incoming wires totalling $569,991.78 from 2 senders.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "The account sent 5 outgoing wires totalling $566,423.86 to 3 beneficiaries.",
+        "citations": [
+          "F11"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 0 days.",
+        "citations": [
+          "F16"
+        ]
+      },
+      {
+        "text": "Debits in the review period came to 99% of credits.",
+        "citations": [
+          "F17"
+        ]
+      },
+      {
+        "text": "Of the wires, 4 of 10 were for a whole number of thousands of dollars.",
+        "citations": [
+          "F14"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00045-MUL",
+    "title": "Synthetic case 04: Money mule account (individual subject)",
+    "typology_id": "MUL",
+    "subject": {
+      "name": "Lucan Fennimore",
+      "kind": "individual",
+      "detail": "age 24, unemployed, resident of Sugar Land, TX"
+    },
+    "period": {
+      "start": "2025-07-25",
+      "end": "2025-09-09"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Lucan Fennimore, individual, age 24, unemployed, resident of Sugar Land, TX"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-437719, personal checking, opened 2025-07-01 at the Sugar Land, TX branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-07-25 to 2025-09-09 (47 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "44"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "15 credits totalling $48,307.72"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "29 debits totalling $46,602.86"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$8,100.00 (cash withdrawal on 2025-08-15)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$1,400.00"
+      },
+      {
+        "id": "F9",
+        "label": "Account age at the start of the review period",
+        "value": "24 days"
+      },
+      {
+        "id": "F10",
+        "label": "Cash withdrawals",
+        "value": "6 cash withdrawals totalling $25,460.00"
+      },
+      {
+        "id": "F11",
+        "label": "Cash withdrawals of at least $8,000.00 and under $10,000.00",
+        "value": "1 of 6"
+      },
+      {
+        "id": "F12",
+        "label": "Incoming wires",
+        "value": "2 incoming wires totalling $4,817.13 from 1 sender"
+      },
+      {
+        "id": "F13",
+        "label": "Largest wire counterparties by value",
+        "value": "Fenella Thistlewood"
+      },
+      {
+        "id": "F14",
+        "label": "Credits from individuals",
+        "value": "15 credits totalling $48,307.72 from 10 individuals"
+      },
+      {
+        "id": "F15",
+        "label": "Payments to individuals",
+        "value": "6 payments totalling $17,767.25 to Dorian Skerrit"
+      },
+      {
+        "id": "F16",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "0 days"
+      },
+      {
+        "id": "F17",
+        "label": "Debits as a share of credits in the review period",
+        "value": "96%"
+      },
+      {
+        "id": "F18",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "17 transactions"
+      },
+      {
+        "id": "F19",
+        "label": "Note on file",
+        "value": "Analyst note 2025-08-13: the account holder said the incoming payments were for a work-from-home job found online"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-07-30",
+        "type": "ach_in",
+        "amount": 1250.0,
+        "counterparty": "Caspian Stonecastle",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-07-31",
+        "type": "p2p_out",
+        "amount": 1118.76,
+        "counterparty": "Dorian Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-01",
+        "type": "p2p_in",
+        "amount": 3450.0,
+        "counterparty": "Caspian Thornbury",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-01",
+        "type": "p2p_in",
+        "amount": 2118.49,
+        "counterparty": "Fenella Thistlewood",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-02",
+        "type": "p2p_out",
+        "amount": 3087.78,
+        "counterparty": "Dorian Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-06",
+        "type": "p2p_in",
+        "amount": 2604.9,
+        "counterparty": "Osgood Winterbourne",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-06",
+        "type": "ach_in",
+        "amount": 2800.0,
+        "counterparty": "Caspian Thistlewood",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-06",
+        "type": "cash_withdrawal",
+        "amount": 2500.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Sugar Land, TX"
+      },
+      {
+        "date": "2025-08-06",
+        "type": "p2p_in",
+        "amount": 1106.91,
+        "counterparty": "Odette Hollowbrook",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-06",
+        "type": "p2p_in",
+        "amount": 3983.55,
+        "counterparty": "Alaric Hollowbrook",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-07",
+        "type": "p2p_out",
+        "amount": 4585.48,
+        "counterparty": "Dorian Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-07",
+        "type": "cash_withdrawal",
+        "amount": 3560.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Sugar Land, TX"
+      },
+      {
+        "date": "2025-08-08",
+        "type": "p2p_in",
+        "amount": 6004.05,
+        "counterparty": "Barnaby Thistlewood",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-10",
+        "type": "p2p_out",
+        "amount": 5373.68,
+        "counterparty": "Dorian Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-11",
+        "type": "ach_in",
+        "amount": 4572.69,
+        "counterparty": "Odette Brackenridge",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-13",
+        "type": "cash_withdrawal",
+        "amount": 4100.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Sugar Land, TX"
+      },
+      {
+        "date": "2025-08-13",
+        "type": "ach_in",
+        "amount": 1650.0,
+        "counterparty": "Fenella Thistlewood",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-13",
+        "type": "ach_in",
+        "amount": 7650.0,
+        "counterparty": "Odette Hollowbrook",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-14",
+        "type": "wire_in",
+        "amount": 1900.0,
+        "counterparty": "Fenella Thistlewood",
+        "channel": "wire",
+        "location": "United States"
+      },
+      {
+        "date": "2025-08-15",
+        "type": "cash_withdrawal",
+        "amount": 8100.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Sugar Land, TX"
+      },
+      {
+        "date": "2025-08-15",
+        "type": "cash_withdrawal",
+        "amount": 1920.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Sugar Land, TX"
+      },
+      {
+        "date": "2025-08-16",
+        "type": "p2p_in",
+        "amount": 5900.0,
+        "counterparty": "Fenella Thistlewood",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-16",
+        "type": "cash_withdrawal",
+        "amount": 5280.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Sugar Land, TX"
+      },
+      {
+        "date": "2025-08-18",
+        "type": "wire_in",
+        "amount": 2917.13,
+        "counterparty": "Fenella Thistlewood",
+        "channel": "wire",
+        "location": "United States"
+      },
+      {
+        "date": "2025-08-20",
+        "type": "p2p_out",
+        "amount": 2610.86,
+        "counterparty": "Dorian Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      }
+    ],
+    "query": "The account holder is a private individual, unemployed.\nThe customer is a young adult.\nThe account was opened shortly before the activity began.\nTurnover was many times higher than the customer told the bank to expect.\nCash was withdrawn many times.\nMany different individuals sent money to the account, and nothing links them to each other or to the customer.\nMoney left the account within a day or so of arriving, and very little stayed behind.\nExpected monthly activity stated at account opening: $1,400.00\nAccount age at the start of the review period: 24 days\nCash withdrawals: 6 cash withdrawals totalling $25,460.00\nCash withdrawals of at least $8,000.00 and under $10,000.00: 1 of 6\nIncoming wires: 2 incoming wires totalling $4,817.13 from 1 sender\nCredits from individuals: 15 credits totalling $48,307.72 from 10 individuals\nPayments to individuals: 6 payments totalling $17,767.25 to Dorian Skerrit\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 0 days\nNote on file: Analyst note 2025-08-13: the account holder said the incoming payments were for a work-from-home job found online",
+    "retrieved": [
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.1037,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "STR-03",
+        "typology_id": "STR",
+        "score": 0.081,
+        "text": "Cash activity that is inconsistent with the customer's stated occupation, income or expected account activity"
+      },
+      {
+        "chunk_id": "MUL-04",
+        "typology_id": "MUL",
+        "score": 0.0762,
+        "text": "Account activity is inconsistent with the holder's age, occupation or income, for example a student or unemployed person handling large sums"
+      },
+      {
+        "chunk_id": "FUN-02",
+        "typology_id": "FUN",
+        "score": 0.0633,
+        "text": "Deposits made by individuals who are not account signers, often anonymous third parties who hold only the account number"
+      },
+      {
+        "chunk_id": "MUL-03",
+        "typology_id": "MUL",
+        "score": 0.0622,
+        "text": "The account holder retains a small portion of each incoming payment, consistent with a commission"
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "MUL",
+        "score": 0.0999
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.085
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0733
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.0591
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0532
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0493
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0253
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0221
+      }
+    ],
+    "written_for": "MUL",
+    "references": [
+      "MUL-00",
+      "MUL-04",
+      "MUL-03",
+      "MUL-01"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Lucan Fennimore, individual, age 24, unemployed, resident of Sugar Land, TX.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "In that period the account received 15 credits totalling $48,307.72 and paid out 29 debits totalling $46,602.86.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $8,100.00 (cash withdrawal on 2025-08-15).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-07-25 to 2025-09-09 (47 days), during which the account recorded 44 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The account had been open for 24 days when the review period began.",
+        "citations": [
+          "F9"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-437719, personal checking, opened 2025-07-01 at the Sugar Land, TX branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $1,400.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Money mule account.",
+        "citations": [
+          "MUL-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: account activity is inconsistent with the holder's age, occupation or income, for example a student or unemployed person handling large sums.",
+        "citations": [
+          "MUL-04"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: the account holder retains a small portion of each incoming payment, consistent with a commission.",
+        "citations": [
+          "MUL-03"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: a personal account, often newly opened, receives deposits or transfers from multiple unrelated individuals.",
+        "citations": [
+          "MUL-01"
+        ]
+      },
+      {
+        "text": "A note on file reads: Analyst note 2025-08-13: the account holder said the incoming payments were for a work-from-home job found online.",
+        "citations": [
+          "F19"
+        ]
+      },
+      {
+        "text": "From individuals the account received 15 credits totalling $48,307.72 from 10 individuals.",
+        "citations": [
+          "F14"
+        ]
+      },
+      {
+        "text": "Cash left the account through 6 cash withdrawals totalling $25,460.00.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "The account made 6 payments totalling $17,767.25 to Dorian Skerrit.",
+        "citations": [
+          "F15"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 0 days.",
+        "citations": [
+          "F16"
+        ]
+      },
+      {
+        "text": "Debits in the review period came to 96% of credits.",
+        "citations": [
+          "F17"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00046-TBM",
+    "title": "Synthetic case 05: Trade-based money laundering (business subject)",
+    "typology_id": "TBM",
+    "subject": {
+      "name": "Bluefinch Imports Ltd",
+      "kind": "business",
+      "detail": "scrap metal trading, registered 2022-09-29 in Escondido, CA"
+    },
+    "period": {
+      "start": "2025-01-10",
+      "end": "2025-02-16"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Bluefinch Imports Ltd, business, scrap metal trading, registered 2022-09-29 in Escondido, CA"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-628534, business checking, opened 2022-10-20 at the Escondido, CA branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-01-10 to 2025-02-16 (38 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "31"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "16 credits totalling $1,068,322.88"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "15 debits totalling $828,928.07"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$310,500.00 (outgoing wire on 2025-02-05, counterparty Larchmont Vale Holdings LLC)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$60,000.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$43,500.00"
+      },
+      {
+        "id": "F10",
+        "label": "Incoming wires",
+        "value": "11 incoming wires totalling $1,050,000.00 from 5 senders"
+      },
+      {
+        "id": "F11",
+        "label": "Outgoing wires",
+        "value": "3 outgoing wires totalling $804,500.00 to 1 beneficiary"
+      },
+      {
+        "id": "F12",
+        "label": "Largest wire counterparties by value",
+        "value": "Larchmont Vale Holdings LLC; Fernhollow Ventures LLC; Greymoor Consulting LLC"
+      },
+      {
+        "id": "F13",
+        "label": "Wire counterparty locations outside the United States",
+        "value": "Hong Kong; Panama City, Panama; Riga, Latvia"
+      },
+      {
+        "id": "F14",
+        "label": "Wires for a whole number of thousands of dollars",
+        "value": "11 of 14"
+      },
+      {
+        "id": "F15",
+        "label": "Payees first paid during the review period",
+        "value": "1 payee receiving $804,500.00: Larchmont Vale Holdings LLC"
+      },
+      {
+        "id": "F16",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "2 days"
+      },
+      {
+        "id": "F17",
+        "label": "Debits as a share of credits in the review period",
+        "value": "78%"
+      },
+      {
+        "id": "F18",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "17 transactions"
+      },
+      {
+        "id": "F19",
+        "label": "Invoices on file",
+        "value": "6 invoices totalling $933,973.43 for aluminium scrap, issued to Pebblecroft Ventures LLC; Tidewater Lantern Logistics LLC"
+      },
+      {
+        "id": "F20",
+        "label": "Incoming wires that quote an invoice number",
+        "value": "11 wires totalling $1,050,000.00 from 5 senders"
+      },
+      {
+        "id": "F21",
+        "label": "Invoice payments from senders not named on any invoice",
+        "value": "10 of 11, sent by Fernhollow Ventures LLC; Greymoor Consulting LLC; Ironwillow Imports Ltd; Northquay Group Ltd"
+      },
+      {
+        "id": "F22",
+        "label": "Note on file",
+        "value": "Analyst note 2025-02-09: the customer could not produce shipping papers for 1 of the invoices"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-01-12",
+        "type": "ach_in",
+        "amount": 2918.08,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-16",
+        "type": "wire_in",
+        "amount": 50000.0,
+        "counterparty": "Fernhollow Ventures LLC",
+        "channel": "wire",
+        "location": "Riga, Latvia"
+      },
+      {
+        "date": "2025-01-17",
+        "type": "wire_in",
+        "amount": 50000.0,
+        "counterparty": "Pebblecroft Ventures LLC",
+        "channel": "wire",
+        "location": "London, UK"
+      },
+      {
+        "date": "2025-01-19",
+        "type": "ach_out",
+        "amount": 5342.62,
+        "counterparty": "Payroll service",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-23",
+        "type": "card_purchase",
+        "amount": 545.75,
+        "counterparty": "Fuel station",
+        "channel": "card",
+        "location": "Escondido, CA"
+      },
+      {
+        "date": "2025-01-23",
+        "type": "ach_in",
+        "amount": 1854.27,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-23",
+        "type": "wire_in",
+        "amount": 60000.0,
+        "counterparty": "Fernhollow Ventures LLC",
+        "channel": "wire",
+        "location": "Riga, Latvia"
+      },
+      {
+        "date": "2025-01-24",
+        "type": "ach_out",
+        "amount": 4050.0,
+        "counterparty": "Commercial landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-26",
+        "type": "card_purchase",
+        "amount": 375.47,
+        "counterparty": "Fuel station",
+        "channel": "card",
+        "location": "Escondido, CA"
+      },
+      {
+        "date": "2025-01-26",
+        "type": "wire_in",
+        "amount": 60000.0,
+        "counterparty": "Northquay Group Ltd",
+        "channel": "wire",
+        "location": "Hong Kong"
+      },
+      {
+        "date": "2025-01-29",
+        "type": "wire_in",
+        "amount": 240000.0,
+        "counterparty": "Greymoor Consulting LLC",
+        "channel": "wire",
+        "location": "London, UK"
+      },
+      {
+        "date": "2025-01-31",
+        "type": "wire_in",
+        "amount": 60000.0,
+        "counterparty": "Fernhollow Ventures LLC",
+        "channel": "wire",
+        "location": "Riga, Latvia"
+      },
+      {
+        "date": "2025-01-31",
+        "type": "wire_in",
+        "amount": 75000.0,
+        "counterparty": "Ironwillow Imports Ltd",
+        "channel": "wire",
+        "location": "Hong Kong"
+      },
+      {
+        "date": "2025-02-02",
+        "type": "ach_out",
+        "amount": 7419.15,
+        "counterparty": "Payroll service",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-03",
+        "type": "wire_in",
+        "amount": 200000.0,
+        "counterparty": "Ironwillow Imports Ltd",
+        "channel": "wire",
+        "location": "Hong Kong"
+      },
+      {
+        "date": "2025-02-04",
+        "type": "ach_in",
+        "amount": 2405.37,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-05",
+        "type": "ach_in",
+        "amount": 4358.39,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-05",
+        "type": "wire_out",
+        "amount": 310500.0,
+        "counterparty": "Larchmont Vale Holdings LLC",
+        "channel": "wire",
+        "location": "Panama City, Panama"
+      },
+      {
+        "date": "2025-02-06",
+        "type": "wire_in",
+        "amount": 85000.0,
+        "counterparty": "Fernhollow Ventures LLC",
+        "channel": "wire",
+        "location": "Riga, Latvia"
+      },
+      {
+        "date": "2025-02-06",
+        "type": "wire_in",
+        "amount": 85000.0,
+        "counterparty": "Greymoor Consulting LLC",
+        "channel": "wire",
+        "location": "London, UK"
+      },
+      {
+        "date": "2025-02-06",
+        "type": "wire_out",
+        "amount": 239500.0,
+        "counterparty": "Larchmont Vale Holdings LLC",
+        "channel": "wire",
+        "location": "Panama City, Panama"
+      },
+      {
+        "date": "2025-02-06",
+        "type": "wire_out",
+        "amount": 254500.0,
+        "counterparty": "Larchmont Vale Holdings LLC",
+        "channel": "wire",
+        "location": "Panama City, Panama"
+      },
+      {
+        "date": "2025-02-13",
+        "type": "wire_in",
+        "amount": 85000.0,
+        "counterparty": "Fernhollow Ventures LLC",
+        "channel": "wire",
+        "location": "Riga, Latvia"
+      },
+      {
+        "date": "2025-02-15",
+        "type": "ach_in",
+        "amount": 6786.77,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-16",
+        "type": "ach_out",
+        "amount": 5517.49,
+        "counterparty": "Payroll service",
+        "channel": "ach",
+        "location": "online"
+      }
+    ],
+    "query": "The account belongs to a company.\nTurnover was many times higher than the customer told the bank to expect.\nLarge wires came in and large wires went out.\nSome wires went to or came from other countries.\nMost of the wire amounts were round numbers.\nSpending rose far above the customer's usual level and went to payees the customer had never paid before.\nThe customer holds invoices for goods sold to buyers in other countries.\nSome invoice payments came from companies that do not appear on any invoice.\nThe payments received do not match the invoice totals.\nExpected monthly activity stated at account opening: $60,000.00\nAverage monthly debits in the six months before the review period: $43,500.00\nIncoming wires: 11 incoming wires totalling $1,050,000.00 from 5 senders\nOutgoing wires: 3 outgoing wires totalling $804,500.00 to 1 beneficiary\nWire counterparty locations outside the United States: Hong Kong; Panama City, Panama; Riga, Latvia\nWires for a whole number of thousands of dollars: 11 of 14\nPayees first paid during the review period: 1 payee receiving $804,500.00: Larchmont Vale Holdings LLC\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 2 days\nInvoices on file: 6 invoices totalling $933,973.43 for aluminium scrap, issued to Pebblecroft Ventures LLC; Tidewater Lantern Logistics LLC\nIncoming wires that quote an invoice number: 11 wires totalling $1,050,000.00 from 5 senders\nInvoice payments from senders not named on any invoice: 10 of 11, sent by Fernhollow Ventures LLC; Greymoor Consulting LLC; Ironwillow Imports Ltd; Northquay Group Ltd\nNote on file: Analyst note 2025-02-09: the customer could not produce shipping papers for 1 of the invoices",
+    "retrieved": [
+      {
+        "chunk_id": "TBM-02",
+        "typology_id": "TBM",
+        "score": 0.143,
+        "text": "The price or quantity of goods on invoices is significantly inconsistent with market value, indicating over-invoicing or under-invoicing"
+      },
+      {
+        "chunk_id": "TBM-06",
+        "typology_id": "TBM",
+        "score": 0.1086,
+        "text": "Payments arrive in round amounts or instalments that do not correspond to invoice values"
+      },
+      {
+        "chunk_id": "TBM-00",
+        "typology_id": "TBM",
+        "score": 0.1057,
+        "text": "Trade-based money laundering disguises criminal proceeds as payment for goods. Common techniques are over-invoicing and under-invoicing, invoicing the same shipment more than once, phantom shipments and misdescription of goods. Payments often arrive from third parties that are not party to the trade, and the documents do not agree with each other or with the customer's business."
+      },
+      {
+        "chunk_id": "TBM-04",
+        "typology_id": "TBM",
+        "score": 0.0992,
+        "text": "The same shipment is invoiced more than once, or shipping documents such as bills of lading are missing or inconsistent"
+      },
+      {
+        "chunk_id": "RPM-01",
+        "typology_id": "RPM",
+        "score": 0.0977,
+        "text": "Incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount"
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "TBM",
+        "score": 0.1046
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0632
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0604
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0463
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0442
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0387
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0288
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.0279
+      }
+    ],
+    "written_for": "TBM",
+    "references": [
+      "TBM-00",
+      "TBM-02",
+      "TBM-06",
+      "TBM-04"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Bluefinch Imports Ltd, business, scrap metal trading, registered 2022-09-29 in Escondido, CA.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "Of the invoice payments, 10 of 11, sent by Fernhollow Ventures LLC; Greymoor Consulting LLC; Ironwillow Imports Ltd; Northquay Group Ltd, came from senders not named on any invoice.",
+        "citations": [
+          "F21"
+        ]
+      },
+      {
+        "text": "In that period the account received 16 credits totalling $1,068,322.88 and paid out 15 debits totalling $828,928.07.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $310,500.00 (outgoing wire on 2025-02-05, counterparty Larchmont Vale Holdings LLC).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-01-10 to 2025-02-16 (38 days), during which the account recorded 31 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-628534, business checking, opened 2022-10-20 at the Escondido, CA branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "Wire counterparties outside the United States were located in Hong Kong; Panama City, Panama; Riga, Latvia.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $60,000.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Trade-based money laundering.",
+        "citations": [
+          "TBM-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: the price or quantity of goods on invoices is significantly inconsistent with market value, indicating over-invoicing or under-invoicing.",
+        "citations": [
+          "TBM-02"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: payments arrive in round amounts or instalments that do not correspond to invoice values.",
+        "citations": [
+          "TBM-06"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: the same shipment is invoiced more than once, or shipping documents such as bills of lading are missing or inconsistent.",
+        "citations": [
+          "TBM-04"
+        ]
+      },
+      {
+        "text": "A note on file reads: Analyst note 2025-02-09: the customer could not produce shipping papers for 1 of the invoices.",
+        "citations": [
+          "F22"
+        ]
+      },
+      {
+        "text": "The trade documents on file are 6 invoices totalling $933,973.43 for aluminium scrap, issued to Pebblecroft Ventures LLC; Tidewater Lantern Logistics LLC.",
+        "citations": [
+          "F19"
+        ]
+      },
+      {
+        "text": "The account received 11 wires totalling $1,050,000.00 from 5 senders that quote an invoice number.",
+        "citations": [
+          "F20"
+        ]
+      },
+      {
+        "text": "The account sent 3 outgoing wires totalling $804,500.00 to 1 beneficiary.",
+        "citations": [
+          "F11"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00047-SHL",
+    "title": "Synthetic case 06: Shell company layering (business subject)",
+    "typology_id": "SHL",
+    "subject": {
+      "name": "Halcyon Bay Partners LLC",
+      "kind": "business",
+      "detail": "management consulting, registered 2025-02-05 in Hialeah, FL"
+    },
+    "period": {
+      "start": "2025-08-25",
+      "end": "2025-10-31"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Halcyon Bay Partners LLC, business, management consulting, registered 2025-02-05 in Hialeah, FL"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-911879, business checking, opened 2025-03-02 at the Hialeah, FL branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-08-25 to 2025-10-31 (68 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "17"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "11 credits totalling $2,177,400.00"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "6 debits totalling $2,142,900.00"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$480,000.00 (outgoing wire on 2025-10-04, counterparty Stagmoor Group Ltd)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$68,000.00"
+      },
+      {
+        "id": "F9",
+        "label": "Account age at the start of the review period",
+        "value": "176 days"
+      },
+      {
+        "id": "F10",
+        "label": "Incoming wires",
+        "value": "11 incoming wires totalling $2,177,400.00 from 5 senders"
+      },
+      {
+        "id": "F11",
+        "label": "Outgoing wires",
+        "value": "6 outgoing wires totalling $2,142,900.00 to 4 beneficiaries"
+      },
+      {
+        "id": "F12",
+        "label": "Largest wire counterparties by value",
+        "value": "Bluefinch Ventures LLC; Sablewood Ventures LLC; Ironwillow Group Ltd"
+      },
+      {
+        "id": "F13",
+        "label": "Wire counterparty locations outside the United States",
+        "value": "Dubai, UAE; Mexico City, Mexico"
+      },
+      {
+        "id": "F14",
+        "label": "Wires for a whole number of thousands of dollars",
+        "value": "15 of 17"
+      },
+      {
+        "id": "F15",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "10 days"
+      },
+      {
+        "id": "F16",
+        "label": "Debits as a share of credits in the review period",
+        "value": "98%"
+      },
+      {
+        "id": "F17",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "0 transactions"
+      },
+      {
+        "id": "F18",
+        "label": "Counterparties registered at the same address as the subject",
+        "value": "2 counterparties: Bluefinch Ventures LLC; Sablewood Ventures LLC"
+      },
+      {
+        "id": "F19",
+        "label": "Outgoing wires to parties that had earlier wired money in",
+        "value": "2 outgoing wires totalling $930,000.00 to Sablewood Ventures LLC; Stagmoor Group Ltd"
+      },
+      {
+        "id": "F20",
+        "label": "Note on file",
+        "value": "Analyst note 2025-09-04: no website, staff or premises could be found for the company"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-08-29",
+        "type": "wire_in",
+        "amount": 325000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Mexico City, Mexico"
+      },
+      {
+        "date": "2025-08-30",
+        "type": "wire_in",
+        "amount": 50000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Mexico City, Mexico"
+      },
+      {
+        "date": "2025-08-31",
+        "type": "wire_in",
+        "amount": 75000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Mexico City, Mexico"
+      },
+      {
+        "date": "2025-09-04",
+        "type": "wire_in",
+        "amount": 325000.0,
+        "counterparty": "Saltmarsh Exports Ltd",
+        "channel": "wire",
+        "location": "Dubai, UAE"
+      },
+      {
+        "date": "2025-09-06",
+        "type": "wire_in",
+        "amount": 205000.0,
+        "counterparty": "Ironwillow Group Ltd",
+        "channel": "wire",
+        "location": "Evanston, IL"
+      },
+      {
+        "date": "2025-09-07",
+        "type": "wire_in",
+        "amount": 22400.0,
+        "counterparty": "Sorrel Point Supply Ltd",
+        "channel": "wire",
+        "location": "Evanston, IL"
+      },
+      {
+        "date": "2025-09-15",
+        "type": "wire_out",
+        "amount": 12900.0,
+        "counterparty": "Fernhollow Ventures LLC",
+        "channel": "wire",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-09-16",
+        "type": "wire_out",
+        "amount": 470000.0,
+        "counterparty": "Bluefinch Ventures LLC",
+        "channel": "wire",
+        "location": "Katy, TX"
+      },
+      {
+        "date": "2025-09-18",
+        "type": "wire_in",
+        "amount": 275000.0,
+        "counterparty": "Stagmoor Group Ltd",
+        "channel": "wire",
+        "location": "Joliet, IL"
+      },
+      {
+        "date": "2025-09-28",
+        "type": "wire_out",
+        "amount": 450000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Mexico City, Mexico"
+      },
+      {
+        "date": "2025-09-29",
+        "type": "wire_out",
+        "amount": 345000.0,
+        "counterparty": "Bluefinch Ventures LLC",
+        "channel": "wire",
+        "location": "Katy, TX"
+      },
+      {
+        "date": "2025-10-01",
+        "type": "wire_in",
+        "amount": 40000.0,
+        "counterparty": "Stagmoor Group Ltd",
+        "channel": "wire",
+        "location": "Joliet, IL"
+      },
+      {
+        "date": "2025-10-04",
+        "type": "wire_out",
+        "amount": 480000.0,
+        "counterparty": "Stagmoor Group Ltd",
+        "channel": "wire",
+        "location": "Joliet, IL"
+      },
+      {
+        "date": "2025-10-09",
+        "type": "wire_in",
+        "amount": 340000.0,
+        "counterparty": "Ironwillow Group Ltd",
+        "channel": "wire",
+        "location": "Evanston, IL"
+      },
+      {
+        "date": "2025-10-12",
+        "type": "wire_in",
+        "amount": 400000.0,
+        "counterparty": "Ironwillow Group Ltd",
+        "channel": "wire",
+        "location": "Evanston, IL"
+      },
+      {
+        "date": "2025-10-19",
+        "type": "wire_out",
+        "amount": 385000.0,
+        "counterparty": "Bluefinch Ventures LLC",
+        "channel": "wire",
+        "location": "Katy, TX"
+      },
+      {
+        "date": "2025-10-20",
+        "type": "wire_in",
+        "amount": 120000.0,
+        "counterparty": "Sablewood Ventures LLC",
+        "channel": "wire",
+        "location": "Mexico City, Mexico"
+      }
+    ],
+    "query": "The account belongs to a company.\nThe company was registered only a few months ago.\nThe account shows no payroll, rent, utility or card spending.\nTurnover was many times higher than the customer told the bank to expect.\nLarge wires came in and large wires went out.\nSome wires went to or came from other countries.\nMost of the wire amounts were round numbers.\nNearly all the money that came in was paid out again during the period.\nSome counterparties are registered at the same address as the customer.\nSome money was wired back to a company that had earlier sent money in.\nExpected monthly activity stated at account opening: $68,000.00\nAccount age at the start of the review period: 176 days\nIncoming wires: 11 incoming wires totalling $2,177,400.00 from 5 senders\nOutgoing wires: 6 outgoing wires totalling $2,142,900.00 to 4 beneficiaries\nWire counterparty locations outside the United States: Dubai, UAE; Mexico City, Mexico\nWires for a whole number of thousands of dollars: 15 of 17\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 10 days\nPayroll, rent, utility and card transactions in the review period: 0 transactions\nCounterparties registered at the same address as the subject: 2 counterparties: Bluefinch Ventures LLC; Sablewood Ventures LLC\nOutgoing wires to parties that had earlier wired money in: 2 outgoing wires totalling $930,000.00 to Sablewood Ventures LLC; Stagmoor Group Ltd\nNote on file: Analyst note 2025-09-04: no website, staff or premises could be found for the company",
+    "retrieved": [
+      {
+        "chunk_id": "RPM-01",
+        "typology_id": "RPM",
+        "score": 0.1313,
+        "text": "Incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount"
+      },
+      {
+        "chunk_id": "SHL-03",
+        "typology_id": "SHL",
+        "score": 0.0992,
+        "text": "Several companies share the same address, registered agent, directors or signers"
+      },
+      {
+        "chunk_id": "SHL-01",
+        "typology_id": "SHL",
+        "score": 0.0803,
+        "text": "Recently formed company with no visible operations: no payroll, premises, website or ordinary business expenses"
+      },
+      {
+        "chunk_id": "VCO-01",
+        "typology_id": "VCO",
+        "score": 0.0757,
+        "text": "Frequent or large transfers from virtual-currency exchanges into a bank account, followed by prompt cash withdrawals or outgoing wires"
+      },
+      {
+        "chunk_id": "RPM-05",
+        "typology_id": "RPM",
+        "score": 0.0683,
+        "text": "Wire amounts are large, round sums with vague or missing payment details"
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "SHL",
+        "score": 0.0908
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0788
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0546
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0393
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.039
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0384
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.038
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0188
+      }
+    ],
+    "written_for": "SHL",
+    "references": [
+      "SHL-00",
+      "SHL-03",
+      "SHL-01",
+      "SHL-02"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Halcyon Bay Partners LLC, business, management consulting, registered 2025-02-05 in Hialeah, FL.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "The registered address of the subject is also the registered address of 2 counterparties: Bluefinch Ventures LLC; Sablewood Ventures LLC.",
+        "citations": [
+          "F18"
+        ]
+      },
+      {
+        "text": "In that period the account received 11 credits totalling $2,177,400.00 and paid out 6 debits totalling $2,142,900.00.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $480,000.00 (outgoing wire on 2025-10-04, counterparty Stagmoor Group Ltd).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-08-25 to 2025-10-31 (68 days), during which the account recorded 17 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-911879, business checking, opened 2025-03-02 at the Hialeah, FL branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "Wire counterparties outside the United States were located in Dubai, UAE; Mexico City, Mexico.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $68,000.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Shell company layering.",
+        "citations": [
+          "SHL-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: several companies share the same address, registered agent, directors or signers.",
+        "citations": [
+          "SHL-03"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: recently formed company with no visible operations: no payroll, premises, website or ordinary business expenses.",
+        "citations": [
+          "SHL-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: account funded and depleted by wire transfers to and from other legal entities, with few or no payments to recognisable suppliers or customers.",
+        "citations": [
+          "SHL-02"
+        ]
+      },
+      {
+        "text": "A note on file reads: Analyst note 2025-09-04: no website, staff or premises could be found for the company.",
+        "citations": [
+          "F20"
+        ]
+      },
+      {
+        "text": "The account received 11 incoming wires totalling $2,177,400.00 from 5 senders.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "The account sent 6 outgoing wires totalling $2,142,900.00 to 4 beneficiaries.",
+        "citations": [
+          "F11"
+        ]
+      },
+      {
+        "text": "Payroll, rent, utility and card activity in the review period amounted to 0 transactions.",
+        "citations": [
+          "F17"
+        ]
+      },
+      {
+        "text": "Money went back to earlier senders through 2 outgoing wires totalling $930,000.00 to Sablewood Ventures LLC; Stagmoor Group Ltd.",
+        "citations": [
+          "F19"
+        ]
+      },
+      {
+        "text": "Of the wires, 15 of 17 were for a whole number of thousands of dollars.",
+        "citations": [
+          "F14"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00048-EFE",
+    "title": "Synthetic case 07: Elder financial exploitation (individual subject)",
+    "typology_id": "EFE",
+    "subject": {
+      "name": "Dorian Marrowby",
+      "kind": "individual",
+      "detail": "age 86, retired nurse, resident of Oceanside, CA"
+    },
+    "period": {
+      "start": "2025-01-19",
+      "end": "2025-02-16"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Dorian Marrowby, individual, age 86, retired nurse, resident of Oceanside, CA"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-360613, personal checking, opened 2000-08-24 at the Oceanside, CA branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-01-19 to 2025-02-16 (29 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "22"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "9 credits totalling $44,779.50"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "13 debits totalling $103,817.61"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$36,000.00 (transfer in from the customer's own account on 2025-02-02, counterparty Own savings account)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$7,000.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$3,560.00"
+      },
+      {
+        "id": "F10",
+        "label": "Outgoing wires",
+        "value": "3 outgoing wires totalling $79,500.00 to 2 beneficiaries"
+      },
+      {
+        "id": "F11",
+        "label": "Largest wire counterparties by value",
+        "value": "Lucan Thistlewood; Alaric Emberly"
+      },
+      {
+        "id": "F12",
+        "label": "Wires for a whole number of thousands of dollars",
+        "value": "2 of 3"
+      },
+      {
+        "id": "F13",
+        "label": "Credits from individuals",
+        "value": "5 credits totalling $2,092.56 from 5 individuals"
+      },
+      {
+        "id": "F14",
+        "label": "Payments to individuals",
+        "value": "4 payments totalling $100,500.00 to Alaric Emberly; Lucan Thistlewood; Mirela Hollowbrook"
+      },
+      {
+        "id": "F15",
+        "label": "Gift card purchases",
+        "value": "1 purchase totalling $900.00"
+      },
+      {
+        "id": "F16",
+        "label": "Transfers in from the customer's own savings",
+        "value": "1 transfer totalling $36,000.00"
+      },
+      {
+        "id": "F17",
+        "label": "Payees first paid during the review period",
+        "value": "4 payees receiving $101,400.00: Alaric Emberly; Gift card kiosk; Lucan Thistlewood; Mirela Hollowbrook"
+      },
+      {
+        "id": "F18",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "3 days"
+      },
+      {
+        "id": "F19",
+        "label": "Debits as a share of credits in the review period",
+        "value": "232%"
+      },
+      {
+        "id": "F20",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "11 transactions"
+      },
+      {
+        "id": "F21",
+        "label": "Note on file",
+        "value": "Teller note 2025-02-06: the customer was on the phone throughout and read the payment details from a handwritten slip"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-01-19",
+        "type": "ach_in",
+        "amount": 2228.98,
+        "counterparty": "Willowmere Diner Group",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-19",
+        "type": "p2p_in",
+        "amount": 442.04,
+        "counterparty": "Barnaby Oakhaven",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-23",
+        "type": "card_purchase",
+        "amount": 79.63,
+        "counterparty": "Grocery store",
+        "channel": "card",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-01-26",
+        "type": "card_purchase",
+        "amount": 63.51,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-01-29",
+        "type": "card_purchase",
+        "amount": 22.29,
+        "counterparty": "Grocery store",
+        "channel": "card",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-01-31",
+        "type": "p2p_in",
+        "amount": 393.8,
+        "counterparty": "Thaddeus Ashgrove",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-02",
+        "type": "ach_in",
+        "amount": 2228.98,
+        "counterparty": "Willowmere Diner Group",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-02",
+        "type": "transfer_in",
+        "amount": 36000.0,
+        "counterparty": "Own savings account",
+        "channel": "online",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-05",
+        "type": "card_purchase",
+        "amount": 147.26,
+        "counterparty": "Pharmacy",
+        "channel": "card",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-02-05",
+        "type": "card_purchase",
+        "amount": 84.07,
+        "counterparty": "Hardware store",
+        "channel": "card",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-02-05",
+        "type": "wire_out",
+        "amount": 29500.0,
+        "counterparty": "Alaric Emberly",
+        "channel": "wire",
+        "location": "United States"
+      },
+      {
+        "date": "2025-02-05",
+        "type": "card_purchase",
+        "amount": 900.0,
+        "counterparty": "Gift card kiosk",
+        "channel": "card",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-02-08",
+        "type": "ach_out",
+        "amount": 1820.0,
+        "counterparty": "Landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-10",
+        "type": "ach_out",
+        "amount": 111.5,
+        "counterparty": "Utility company",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-11",
+        "type": "card_purchase",
+        "amount": 89.35,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-02-11",
+        "type": "wire_out",
+        "amount": 25000.0,
+        "counterparty": "Lucan Thistlewood",
+        "channel": "wire",
+        "location": "United States"
+      },
+      {
+        "date": "2025-02-11",
+        "type": "p2p_in",
+        "amount": 317.38,
+        "counterparty": "Mirela Quillfeather",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-12",
+        "type": "cashiers_check",
+        "amount": 21000.0,
+        "counterparty": "Mirela Hollowbrook",
+        "channel": "branch",
+        "location": "Oceanside, CA"
+      },
+      {
+        "date": "2025-02-13",
+        "type": "p2p_in",
+        "amount": 421.95,
+        "counterparty": "Barnaby Marrowby",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-14",
+        "type": "p2p_in",
+        "amount": 517.39,
+        "counterparty": "Ysolde Stonecastle",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-16",
+        "type": "ach_in",
+        "amount": 2228.98,
+        "counterparty": "Willowmere Diner Group",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-16",
+        "type": "wire_out",
+        "amount": 25000.0,
+        "counterparty": "Lucan Thistlewood",
+        "channel": "wire",
+        "location": "United States"
+      }
+    ],
+    "query": "The account holder is a private individual, retired nurse.\nThe customer is an older person.\nTurnover was many times higher than the customer told the bank to expect.\nMany different individuals sent money to the account, and nothing links them to each other or to the customer.\nNearly all the money that came in was paid out again during the period.\nSpending rose far above the customer's usual level and went to payees the customer had never paid before.\nSavings were moved into the account to fund the payments.\nExpected monthly activity stated at account opening: $7,000.00\nAverage monthly debits in the six months before the review period: $3,560.00\nOutgoing wires: 3 outgoing wires totalling $79,500.00 to 2 beneficiaries\nWires for a whole number of thousands of dollars: 2 of 3\nCredits from individuals: 5 credits totalling $2,092.56 from 5 individuals\nPayments to individuals: 4 payments totalling $100,500.00 to Alaric Emberly; Lucan Thistlewood; Mirela Hollowbrook\nGift card purchases: 1 purchase totalling $900.00\nTransfers in from the customer's own savings: 1 transfer totalling $36,000.00\nPayees first paid during the review period: 4 payees receiving $101,400.00: Alaric Emberly; Gift card kiosk; Lucan Thistlewood; Mirela Hollowbrook\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 3 days\nNote on file: Teller note 2025-02-06: the customer was on the phone throughout and read the payment details from a handwritten slip",
+    "retrieved": [
+      {
+        "chunk_id": "SHL-02",
+        "typology_id": "SHL",
+        "score": 0.0988,
+        "text": "Account funded and depleted by wire transfers to and from other legal entities, with few or no payments to recognisable suppliers or customers"
+      },
+      {
+        "chunk_id": "RPM-01",
+        "typology_id": "RPM",
+        "score": 0.0918,
+        "text": "Incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount"
+      },
+      {
+        "chunk_id": "EFE-02",
+        "typology_id": "EFE",
+        "score": 0.0872,
+        "text": "New payees, wires to unfamiliar recipients, or purchases of gift cards or virtual currency that the customer has never made before"
+      },
+      {
+        "chunk_id": "VCO-03",
+        "typology_id": "VCO",
+        "score": 0.0775,
+        "text": "Customer appears to operate as an unregistered peer-to-peer exchanger: many small incoming payments from individuals matched by transfers to exchanges"
+      },
+      {
+        "chunk_id": "MUL-00",
+        "typology_id": "MUL",
+        "score": 0.0612,
+        "text": "A money mule is a person who receives and moves illicit proceeds on behalf of others, knowingly or not. Mules are often recruited through job advertisements, social media or online relationships. Their personal accounts receive payments from fraud victims and the funds are quickly withdrawn in cash or forwarded by wire, remittance, person-to-person transfer or virtual currency, usually after the mule keeps a commission."
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "VCO",
+        "score": 0.0867
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0866
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0795
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0782
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0603
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0571
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.042
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.0368
+      }
+    ],
+    "written_for": "VCO",
+    "references": [
+      "VCO-00",
+      "VCO-03",
+      "VCO-01",
+      "VCO-05"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Dorian Marrowby, individual, age 86, retired nurse, resident of Oceanside, CA.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "In that period the account received 9 credits totalling $44,779.50 and paid out 13 debits totalling $103,817.61.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $36,000.00 (transfer in from the customer's own account on 2025-02-02, counterparty Own savings account).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-01-19 to 2025-02-16 (29 days), during which the account recorded 22 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-360613, personal checking, opened 2000-08-24 at the Oceanside, CA branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $7,000.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Virtual-currency off-ramp.",
+        "citations": [
+          "VCO-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: customer appears to operate as an unregistered peer-to-peer exchanger: many small incoming payments from individuals matched by transfers to exchanges.",
+        "citations": [
+          "VCO-03"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: frequent or large transfers from virtual-currency exchanges into a bank account, followed by prompt cash withdrawals or outgoing wires.",
+        "citations": [
+          "VCO-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: proceeds are immediately wired abroad or moved to accounts of unrelated third parties.",
+        "citations": [
+          "VCO-05"
+        ]
+      },
+      {
+        "text": "A note on file reads: Teller note 2025-02-06: the customer was on the phone throughout and read the payment details from a handwritten slip.",
+        "citations": [
+          "F21"
+        ]
+      },
+      {
+        "text": "From individuals the account received 5 credits totalling $2,092.56 from 5 individuals.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "The account sent 3 outgoing wires totalling $79,500.00 to 2 beneficiaries.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 3 days.",
+        "citations": [
+          "F18"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00049-VCO",
+    "title": "Synthetic case 08: Virtual-currency off-ramp (individual subject)",
+    "typology_id": "VCO",
+    "subject": {
+      "name": "Alaric Dunmoor",
+      "kind": "individual",
+      "detail": "age 38, warehouse worker, resident of Pasadena, TX"
+    },
+    "period": {
+      "start": "2025-08-21",
+      "end": "2025-10-04"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Alaric Dunmoor, individual, age 38, warehouse worker, resident of Pasadena, TX"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-993531, personal checking, opened 2017-10-11 at the Pasadena, TX branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-08-21 to 2025-10-04 (45 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "31"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "8 credits totalling $66,080.84"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "23 debits totalling $64,059.73"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$19,128.71 (incoming ACH transfer on 2025-08-21, counterparty Gullwing Digital Exchange)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$4,200.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$2,470.00"
+      },
+      {
+        "id": "F10",
+        "label": "Cash withdrawals",
+        "value": "6 cash withdrawals totalling $28,900.00"
+      },
+      {
+        "id": "F11",
+        "label": "Cash withdrawals of at least $8,000.00 and under $10,000.00",
+        "value": "3 of 6"
+      },
+      {
+        "id": "F12",
+        "label": "Incoming wires",
+        "value": "1 incoming wire totalling $9,022.54 from 1 sender"
+      },
+      {
+        "id": "F13",
+        "label": "Outgoing wires",
+        "value": "2 outgoing wires totalling $31,977.02 to 1 beneficiary"
+      },
+      {
+        "id": "F14",
+        "label": "Largest wire counterparties by value",
+        "value": "Pebblecroft Textiles Co; Marrowbit Exchange"
+      },
+      {
+        "id": "F15",
+        "label": "Wire counterparty locations outside the United States",
+        "value": "Toronto, Canada"
+      },
+      {
+        "id": "F16",
+        "label": "Credits from virtual-currency exchanges",
+        "value": "4 credits totalling $60,379.60 (Gullwing Digital Exchange; Marrowbit Exchange; Puddlecoin Exchange)"
+      },
+      {
+        "id": "F17",
+        "label": "Payees first paid during the review period",
+        "value": "1 payee receiving $31,977.02: Pebblecroft Textiles Co"
+      },
+      {
+        "id": "F18",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "1 day"
+      },
+      {
+        "id": "F19",
+        "label": "Debits as a share of credits in the review period",
+        "value": "97%"
+      },
+      {
+        "id": "F20",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "19 transactions"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-08-21",
+        "type": "ach_in",
+        "amount": 19128.71,
+        "counterparty": "Gullwing Digital Exchange",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-21",
+        "type": "cash_withdrawal",
+        "amount": 380.0,
+        "counterparty": "self",
+        "channel": "atm",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-08-22",
+        "type": "ach_in",
+        "amount": 1425.31,
+        "counterparty": "Pinecrest Staffing Co",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-22",
+        "type": "card_purchase",
+        "amount": 105.47,
+        "counterparty": "Hardware store",
+        "channel": "card",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-08-23",
+        "type": "cash_withdrawal",
+        "amount": 9700.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-08-23",
+        "type": "cash_withdrawal",
+        "amount": 9040.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-08-24",
+        "type": "wire_in",
+        "amount": 9022.54,
+        "counterparty": "Marrowbit Exchange",
+        "channel": "wire",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-24",
+        "type": "cash_withdrawal",
+        "amount": 8920.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-08-26",
+        "type": "ach_in",
+        "amount": 18835.33,
+        "counterparty": "Gullwing Digital Exchange",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-08-27",
+        "type": "wire_out",
+        "amount": 18772.62,
+        "counterparty": "Pebblecroft Textiles Co",
+        "channel": "wire",
+        "location": "Toronto, Canada"
+      },
+      {
+        "date": "2025-09-05",
+        "type": "ach_in",
+        "amount": 1425.31,
+        "counterparty": "Pinecrest Staffing Co",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-06",
+        "type": "cash_withdrawal",
+        "amount": 400.0,
+        "counterparty": "self",
+        "channel": "atm",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-09-07",
+        "type": "ach_out",
+        "amount": 1885.0,
+        "counterparty": "Landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-08",
+        "type": "ach_out",
+        "amount": 200.17,
+        "counterparty": "Utility company",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-09",
+        "type": "cash_withdrawal",
+        "amount": 460.0,
+        "counterparty": "self",
+        "channel": "atm",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-09-12",
+        "type": "card_purchase",
+        "amount": 164.97,
+        "counterparty": "Grocery store",
+        "channel": "card",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-09-15",
+        "type": "ach_in",
+        "amount": 13393.02,
+        "counterparty": "Puddlecoin Exchange",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-15",
+        "type": "wire_out",
+        "amount": 13204.4,
+        "counterparty": "Pebblecroft Textiles Co",
+        "channel": "wire",
+        "location": "Toronto, Canada"
+      },
+      {
+        "date": "2025-09-16",
+        "type": "card_purchase",
+        "amount": 100.54,
+        "counterparty": "Coffee shop",
+        "channel": "card",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-09-18",
+        "type": "card_purchase",
+        "amount": 133.54,
+        "counterparty": "Pharmacy",
+        "channel": "card",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-09-19",
+        "type": "ach_in",
+        "amount": 1425.31,
+        "counterparty": "Pinecrest Staffing Co",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-09-29",
+        "type": "card_purchase",
+        "amount": 146.35,
+        "counterparty": "Fuel station",
+        "channel": "card",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-10-02",
+        "type": "card_purchase",
+        "amount": 60.1,
+        "counterparty": "Pharmacy",
+        "channel": "card",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-10-02",
+        "type": "card_purchase",
+        "amount": 126.74,
+        "counterparty": "Fuel station",
+        "channel": "card",
+        "location": "Pasadena, TX"
+      },
+      {
+        "date": "2025-10-03",
+        "type": "ach_in",
+        "amount": 1425.31,
+        "counterparty": "Pinecrest Staffing Co",
+        "channel": "ach",
+        "location": "online"
+      }
+    ],
+    "query": "The account holder is a private individual who works as a warehouse worker.\nTurnover was many times higher than the customer told the bank to expect.\nCash was withdrawn many times.\nMost of the withdrawals were for a little under $10,000 each.\nMoney arrived from cryptocurrency exchanges.\nSome wires went to or came from other countries.\nMoney left the account within a day or so of arriving, and very little stayed behind.\nSpending rose far above the customer's usual level and went to payees the customer had never paid before.\nExpected monthly activity stated at account opening: $4,200.00\nAverage monthly debits in the six months before the review period: $2,470.00\nCash withdrawals: 6 cash withdrawals totalling $28,900.00\nCash withdrawals of at least $8,000.00 and under $10,000.00: 3 of 6\nIncoming wires: 1 incoming wire totalling $9,022.54 from 1 sender\nOutgoing wires: 2 outgoing wires totalling $31,977.02 to 1 beneficiary\nWire counterparty locations outside the United States: Toronto, Canada\nCredits from virtual-currency exchanges: 4 credits totalling $60,379.60 (Gullwing Digital Exchange; Marrowbit Exchange; Puddlecoin Exchange)\nPayees first paid during the review period: 1 payee receiving $31,977.02: Pebblecroft Textiles Co\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 1 day",
+    "retrieved": [
+      {
+        "chunk_id": "VCO-01",
+        "typology_id": "VCO",
+        "score": 0.1387,
+        "text": "Frequent or large transfers from virtual-currency exchanges into a bank account, followed by prompt cash withdrawals or outgoing wires"
+      },
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.0975,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "VCO-04",
+        "typology_id": "VCO",
+        "score": 0.089,
+        "text": "Exchange payouts arrive soon after the account is opened or after a long period of dormancy"
+      },
+      {
+        "chunk_id": "VCO-00",
+        "typology_id": "VCO",
+        "score": 0.0762,
+        "text": "An off-ramp is the point where virtual currency is converted into ordinary money. Proceeds of fraud, ransomware or darknet sales are sold through exchanges or peer-to-peer traders, the payouts land in a bank account, and the funds are then withdrawn in cash or wired on. The bank sees only the last step, so the pattern of exchange payouts and what follows them carries most of the information."
+      },
+      {
+        "chunk_id": "STR-03",
+        "typology_id": "STR",
+        "score": 0.0669,
+        "text": "Cash activity that is inconsistent with the customer's stated occupation, income or expected account activity"
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "VCO",
+        "score": 0.1088
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0861
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.0683
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0539
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0528
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0421
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0207
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0202
+      }
+    ],
+    "written_for": "VCO",
+    "references": [
+      "VCO-00",
+      "VCO-01",
+      "VCO-04",
+      "VCO-02"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Alaric Dunmoor, individual, age 38, warehouse worker, resident of Pasadena, TX.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "In that period the account received 8 credits totalling $66,080.84 and paid out 23 debits totalling $64,059.73.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $19,128.71 (incoming ACH transfer on 2025-08-21, counterparty Gullwing Digital Exchange).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-08-21 to 2025-10-04 (45 days), during which the account recorded 31 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-993531, personal checking, opened 2017-10-11 at the Pasadena, TX branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $4,200.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Virtual-currency off-ramp.",
+        "citations": [
+          "VCO-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: frequent or large transfers from virtual-currency exchanges into a bank account, followed by prompt cash withdrawals or outgoing wires.",
+        "citations": [
+          "VCO-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: exchange payouts arrive soon after the account is opened or after a long period of dormancy.",
+        "citations": [
+          "VCO-04"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: customer receives funds from several exchanges or peer-to-peer trading platforms without a stated trading business or matching income.",
+        "citations": [
+          "VCO-02"
+        ]
+      },
+      {
+        "text": "Virtual-currency exchanges sent the account 4 credits totalling $60,379.60 (Gullwing Digital Exchange; Marrowbit Exchange; Puddlecoin Exchange).",
+        "citations": [
+          "F16"
+        ]
+      },
+      {
+        "text": "Cash left the account through 6 cash withdrawals totalling $28,900.00.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "The account sent 2 outgoing wires totalling $31,977.02 to 1 beneficiary.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 1 day.",
+        "citations": [
+          "F18"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00050-STR",
+    "title": "Synthetic case 09: Structuring of cash transactions (business subject)",
+    "typology_id": "STR",
+    "subject": {
+      "name": "Tidewater Lantern Grill LLC",
+      "kind": "business",
+      "detail": "restaurant, registered 2014-08-29 in Houston, TX"
+    },
+    "period": {
+      "start": "2025-01-20",
+      "end": "2025-03-16"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Tidewater Lantern Grill LLC, business, restaurant, registered 2014-08-29 in Houston, TX"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-995335, business checking, opened 2014-09-01 at the Houston, TX branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-01-20 to 2025-03-16 (56 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "24"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "12 credits totalling $85,060.08"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "12 debits totalling $78,332.55"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$45,000.00 (cashier's check purchase on 2025-03-11, counterparty Ironwillow Partners LLC)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$56,000.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$42,900.00"
+      },
+      {
+        "id": "F10",
+        "label": "Cash deposits",
+        "value": "9 cash deposits totalling $68,100.00"
+      },
+      {
+        "id": "F11",
+        "label": "Cash deposits of at least $8,000.00 and under $10,000.00",
+        "value": "5 of 9"
+      },
+      {
+        "id": "F12",
+        "label": "Locations of cash deposits",
+        "value": "1 branch in 1 state: Houston, TX"
+      },
+      {
+        "id": "F13",
+        "label": "Payees first paid during the review period",
+        "value": "1 payee receiving $45,000.00: Ironwillow Partners LLC"
+      },
+      {
+        "id": "F14",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "6 days"
+      },
+      {
+        "id": "F15",
+        "label": "Debits as a share of credits in the review period",
+        "value": "92%"
+      },
+      {
+        "id": "F16",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "14 transactions"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "type": "ach_out",
+        "amount": 3100.0,
+        "counterparty": "Commercial landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-25",
+        "type": "ach_in",
+        "amount": 3050.64,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-01-26",
+        "type": "cash_deposit",
+        "amount": 9300.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-01-30",
+        "type": "cash_deposit",
+        "amount": 5800.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-01-31",
+        "type": "card_purchase",
+        "amount": 163.41,
+        "counterparty": "Telecom provider",
+        "channel": "card",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-01",
+        "type": "ach_out",
+        "amount": 5883.87,
+        "counterparty": "Payroll service",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-04",
+        "type": "cash_deposit",
+        "amount": 8800.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-06",
+        "type": "ach_in",
+        "amount": 7304.04,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-06",
+        "type": "cash_deposit",
+        "amount": 6900.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-07",
+        "type": "cash_deposit",
+        "amount": 9000.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-08",
+        "type": "ach_in",
+        "amount": 6605.4,
+        "counterparty": "Card settlement",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-11",
+        "type": "cash_deposit",
+        "amount": 4400.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-14",
+        "type": "cash_deposit",
+        "amount": 5100.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-15",
+        "type": "ach_out",
+        "amount": 5707.62,
+        "counterparty": "Payroll service",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-16",
+        "type": "card_purchase",
+        "amount": 59.26,
+        "counterparty": "Courier service",
+        "channel": "card",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-17",
+        "type": "cash_deposit",
+        "amount": 9200.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-19",
+        "type": "ach_out",
+        "amount": 4950.0,
+        "counterparty": "Commercial landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-20",
+        "type": "card_purchase",
+        "amount": 442.15,
+        "counterparty": "Courier service",
+        "channel": "card",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-21",
+        "type": "card_purchase",
+        "amount": 425.1,
+        "counterparty": "Office supplies store",
+        "channel": "card",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-02-23",
+        "type": "cash_deposit",
+        "amount": 9600.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-03-01",
+        "type": "ach_out",
+        "amount": 4720.74,
+        "counterparty": "Payroll service",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-03-11",
+        "type": "cashiers_check",
+        "amount": 45000.0,
+        "counterparty": "Ironwillow Partners LLC",
+        "channel": "branch",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-03-12",
+        "type": "card_purchase",
+        "amount": 89.42,
+        "counterparty": "Courier service",
+        "channel": "card",
+        "location": "Houston, TX"
+      },
+      {
+        "date": "2025-03-15",
+        "type": "ach_out",
+        "amount": 7790.98,
+        "counterparty": "Payroll service",
+        "channel": "ach",
+        "location": "online"
+      }
+    ],
+    "query": "The account belongs to a company.\nCash was paid in at the counter many times.\nMost of the cash deposits were for a little under $10,000 each.\nNearly all the money that came in was paid out again during the period.\nExpected monthly activity stated at account opening: $56,000.00\nAverage monthly debits in the six months before the review period: $42,900.00\nCash deposits: 9 cash deposits totalling $68,100.00\nCash deposits of at least $8,000.00 and under $10,000.00: 5 of 9\nPayees first paid during the review period: 1 payee receiving $45,000.00: Ironwillow Partners LLC\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 6 days",
+    "retrieved": [
+      {
+        "chunk_id": "STR-01",
+        "typology_id": "STR",
+        "score": 0.1594,
+        "text": "Multiple cash deposits in amounts just below the $10,000 currency transaction reporting threshold"
+      },
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.1587,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "STR-02",
+        "typology_id": "STR",
+        "score": 0.122,
+        "text": "Cash deposits by the same customer at several branches or ATMs on the same day or on consecutive days that together exceed the reporting threshold"
+      },
+      {
+        "chunk_id": "FUN-00",
+        "typology_id": "FUN",
+        "score": 0.1,
+        "text": "A funnel account is an individual or business account in one geographic area that receives multiple cash deposits, often in amounts below the cash reporting threshold, and from which the funds are withdrawn in a different geographic area with little time elapsing between the deposits and the withdrawals. The technique lets a criminal organisation move currency across the country without physically transporting it. Public advisories associate it with narcotics and smuggling proceeds and note that the withdrawn funds may then pay for goods in trade-based laundering schemes."
+      },
+      {
+        "chunk_id": "STR-00",
+        "typology_id": "STR",
+        "score": 0.0926,
+        "text": "Structuring is the practice of breaking cash transactions into smaller amounts so that no single transaction triggers the currency transaction report that United States institutions file for cash transactions above $10,000. Structuring is an offence in its own right, whatever the source of the funds. It usually appears as repeated cash deposits or withdrawals just below the threshold by one customer, on the same day or on consecutive days, sometimes at several branches."
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "STR",
+        "score": 0.1054
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0998
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0428
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.033
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0267
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0261
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0219
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0028
+      }
+    ],
+    "written_for": "STR",
+    "references": [
+      "STR-00",
+      "STR-01",
+      "STR-02",
+      "STR-03"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Tidewater Lantern Grill LLC, business, restaurant, registered 2014-08-29 in Houston, TX.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "In that period the account received 12 credits totalling $85,060.08 and paid out 12 debits totalling $78,332.55.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $45,000.00 (cashier's check purchase on 2025-03-11, counterparty Ironwillow Partners LLC).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-01-20 to 2025-03-16 (56 days), during which the account recorded 24 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-995335, business checking, opened 2014-09-01 at the Houston, TX branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "The cash deposits were made at 1 branch in 1 state: Houston, TX.",
+        "citations": [
+          "F12"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $56,000.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Structuring of cash transactions.",
+        "citations": [
+          "STR-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: multiple cash deposits in amounts just below the $10,000 currency transaction reporting threshold.",
+        "citations": [
+          "STR-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: cash deposits by the same customer at several branches or ATMs on the same day or on consecutive days that together exceed the reporting threshold.",
+        "citations": [
+          "STR-02"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: cash activity that is inconsistent with the customer's stated occupation, income or expected account activity.",
+        "citations": [
+          "STR-03"
+        ]
+      },
+      {
+        "text": "Cash came in through 9 cash deposits totalling $68,100.00.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "Of the cash deposits, 5 of 9 were for at least $8,000.00 and under $10,000.00.",
+        "citations": [
+          "F11"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00051-FUN",
+    "title": "Synthetic case 10: Funnel account (individual subject)",
+    "typology_id": "FUN",
+    "subject": {
+      "name": "Anneliese Skerrit",
+      "kind": "individual",
+      "detail": "age 30, bookkeeper, resident of Baytown, TX"
+    },
+    "period": {
+      "start": "2025-02-04",
+      "end": "2025-03-08"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Anneliese Skerrit, individual, age 30, bookkeeper, resident of Baytown, TX"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-686515, personal checking, opened 2023-06-06 at the Baytown, TX branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-02-04 to 2025-03-08 (33 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "33"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "13 credits totalling $67,143.13"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "20 debits totalling $60,919.99"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$9,660.00 (cash deposit on 2025-02-10, counterparty unidentified third party)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$6,800.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$3,340.00"
+      },
+      {
+        "id": "F10",
+        "label": "Cash deposits",
+        "value": "10 cash deposits totalling $62,220.00"
+      },
+      {
+        "id": "F11",
+        "label": "Cash deposits of at least $8,000.00 and under $10,000.00",
+        "value": "5 of 10"
+      },
+      {
+        "id": "F12",
+        "label": "Locations of cash deposits",
+        "value": "4 branches in 3 states: Baytown, TX; Hialeah, FL; Homestead, FL; Tempe, AZ"
+      },
+      {
+        "id": "F13",
+        "label": "Cash deposits made outside TX, the home state of the account",
+        "value": "8 of 10"
+      },
+      {
+        "id": "F14",
+        "label": "Cash deposits made by someone other than the account holder",
+        "value": "10 of 10"
+      },
+      {
+        "id": "F15",
+        "label": "Days with two or more cash deposits",
+        "value": "3 days"
+      },
+      {
+        "id": "F16",
+        "label": "Cash withdrawals",
+        "value": "8 cash withdrawals totalling $58,400.00"
+      },
+      {
+        "id": "F17",
+        "label": "Cash withdrawals of at least $8,000.00 and under $10,000.00",
+        "value": "3 of 8"
+      },
+      {
+        "id": "F18",
+        "label": "Credits from virtual-currency exchanges",
+        "value": "1 credit totalling $525.19 (Puddlecoin Exchange)"
+      },
+      {
+        "id": "F19",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "0 days"
+      },
+      {
+        "id": "F20",
+        "label": "Debits as a share of credits in the review period",
+        "value": "91%"
+      },
+      {
+        "id": "F21",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "14 transactions"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "type": "cash_deposit",
+        "amount": 8600.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Homestead, FL"
+      },
+      {
+        "date": "2025-02-04",
+        "type": "cash_deposit",
+        "amount": 8000.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-04",
+        "type": "cash_withdrawal",
+        "amount": 7300.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-06",
+        "type": "cash_withdrawal",
+        "amount": 8140.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-07",
+        "type": "cash_deposit",
+        "amount": 3280.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Hialeah, FL"
+      },
+      {
+        "date": "2025-02-07",
+        "type": "cash_deposit",
+        "amount": 2600.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-07",
+        "type": "cash_withdrawal",
+        "amount": 5520.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-07",
+        "type": "cash_deposit",
+        "amount": 8740.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Tempe, AZ"
+      },
+      {
+        "date": "2025-02-07",
+        "type": "cash_withdrawal",
+        "amount": 7880.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-08",
+        "type": "card_purchase",
+        "amount": 167.16,
+        "counterparty": "Grocery store",
+        "channel": "card",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-09",
+        "type": "ach_in",
+        "amount": 2198.97,
+        "counterparty": "Dapplegate Care Homes",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-09",
+        "type": "card_purchase",
+        "amount": 159.78,
+        "counterparty": "Pharmacy",
+        "channel": "card",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-10",
+        "type": "ach_out",
+        "amount": 1195.0,
+        "counterparty": "Landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-10",
+        "type": "cash_deposit",
+        "amount": 9660.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Tempe, AZ"
+      },
+      {
+        "date": "2025-02-12",
+        "type": "cash_withdrawal",
+        "amount": 9080.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-13",
+        "type": "cash_deposit",
+        "amount": 9600.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Tempe, AZ"
+      },
+      {
+        "date": "2025-02-13",
+        "type": "cash_deposit",
+        "amount": 1800.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Tempe, AZ"
+      },
+      {
+        "date": "2025-02-15",
+        "type": "cash_deposit",
+        "amount": 6380.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Homestead, FL"
+      },
+      {
+        "date": "2025-02-15",
+        "type": "cash_withdrawal",
+        "amount": 9500.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-15",
+        "type": "cash_withdrawal",
+        "amount": 7660.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-17",
+        "type": "card_purchase",
+        "amount": 175.96,
+        "counterparty": "Pharmacy",
+        "channel": "card",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-17",
+        "type": "cash_deposit",
+        "amount": 3560.0,
+        "counterparty": "unidentified third party",
+        "channel": "branch",
+        "location": "Hialeah, FL"
+      },
+      {
+        "date": "2025-02-17",
+        "type": "cash_withdrawal",
+        "amount": 3320.0,
+        "counterparty": "self",
+        "channel": "branch",
+        "location": "Baytown, TX"
+      },
+      {
+        "date": "2025-02-23",
+        "type": "ach_in",
+        "amount": 2198.97,
+        "counterparty": "Dapplegate Care Homes",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-02-26",
+        "type": "ach_in",
+        "amount": 525.19,
+        "counterparty": "Puddlecoin Exchange",
+        "channel": "ach",
+        "location": "online"
+      }
+    ],
+    "query": "The account holder is a private individual who works as a bookkeeper.\nTurnover was many times higher than the customer told the bank to expect.\nCash was paid in at the counter many times.\nMost of the cash deposits were for a little under $10,000 each.\nOn some days cash was deposited more than once.\nSeveral different branches were used.\nMost of the cash was deposited in other states, a long way from the customer's home branch.\nMuch of the cash was paid in by people who are not the account holder.\nCash was withdrawn many times.\nMoney left the account within a day or so of arriving, and very little stayed behind.\nExpected monthly activity stated at account opening: $6,800.00\nAverage monthly debits in the six months before the review period: $3,340.00\nCash deposits: 10 cash deposits totalling $62,220.00\nCash deposits of at least $8,000.00 and under $10,000.00: 5 of 10\nLocations of cash deposits: 4 branches in 3 states: Baytown, TX; Hialeah, FL; Homestead, FL; Tempe, AZ\nCash deposits made outside TX, the home state of the account: 8 of 10\nCash deposits made by someone other than the account holder: 10 of 10\nDays with two or more cash deposits: 3 days\nCash withdrawals: 8 cash withdrawals totalling $58,400.00\nCash withdrawals of at least $8,000.00 and under $10,000.00: 3 of 8\nCredits from virtual-currency exchanges: 1 credit totalling $525.19 (Puddlecoin Exchange)\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 0 days",
+    "retrieved": [
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.2467,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "STR-02",
+        "typology_id": "STR",
+        "score": 0.1643,
+        "text": "Cash deposits by the same customer at several branches or ATMs on the same day or on consecutive days that together exceed the reporting threshold"
+      },
+      {
+        "chunk_id": "STR-01",
+        "typology_id": "STR",
+        "score": 0.1573,
+        "text": "Multiple cash deposits in amounts just below the $10,000 currency transaction reporting threshold"
+      },
+      {
+        "chunk_id": "STR-00",
+        "typology_id": "STR",
+        "score": 0.1154,
+        "text": "Structuring is the practice of breaking cash transactions into smaller amounts so that no single transaction triggers the currency transaction report that United States institutions file for cash transactions above $10,000. Structuring is an offence in its own right, whatever the source of the funds. It usually appears as repeated cash deposits or withdrawals just below the threshold by one customer, on the same day or on consecutive days, sometimes at several branches."
+      },
+      {
+        "chunk_id": "FUN-00",
+        "typology_id": "FUN",
+        "score": 0.1083,
+        "text": "A funnel account is an individual or business account in one geographic area that receives multiple cash deposits, often in amounts below the cash reporting threshold, and from which the funds are withdrawn in a different geographic area with little time elapsing between the deposits and the withdrawals. The technique lets a criminal organisation move currency across the country without physically transporting it. Public advisories associate it with narcotics and smuggling proceeds and note that the withdrawn funds may then pay for goods in trade-based laundering schemes."
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "FUN",
+        "score": 0.1382
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.1322
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.057
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0489
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0313
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0194
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0066
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.0054
+      }
+    ],
+    "written_for": "FUN",
+    "references": [
+      "FUN-00",
+      "FUN-01",
+      "FUN-05",
+      "FUN-02"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Anneliese Skerrit, individual, age 30, bookkeeper, resident of Baytown, TX.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "Of the cash deposits, 10 of 10 were made by someone other than the account holder.",
+        "citations": [
+          "F14"
+        ]
+      },
+      {
+        "text": "In that period the account received 13 credits totalling $67,143.13 and paid out 20 debits totalling $60,919.99.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $9,660.00 (cash deposit on 2025-02-10, counterparty unidentified third party).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-02-04 to 2025-03-08 (33 days), during which the account recorded 33 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-686515, personal checking, opened 2023-06-06 at the Baytown, TX branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "Of the cash deposits, 8 of 10 were made outside TX, the home state of the account.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "The cash deposits were made at 4 branches in 3 states: Baytown, TX; Hialeah, FL; Homestead, FL; Tempe, AZ.",
+        "citations": [
+          "F12"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $6,800.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Funnel account.",
+        "citations": [
+          "FUN-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works.",
+        "citations": [
+          "FUN-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: account holder has no evident business or personal reason for deposit activity spread across the country.",
+        "citations": [
+          "FUN-05"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: deposits made by individuals who are not account signers, often anonymous third parties who hold only the account number.",
+        "citations": [
+          "FUN-02"
+        ]
+      },
+      {
+        "text": "Cash came in through 10 cash deposits totalling $62,220.00.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "Cash left the account through 8 cash withdrawals totalling $58,400.00.",
+        "citations": [
+          "F16"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 0 days.",
+        "citations": [
+          "F19"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00052-RPM",
+    "title": "Synthetic case 11: Rapid movement of funds through a pass-through account (individual subject)",
+    "typology_id": "RPM",
+    "subject": {
+      "name": "Linnea Skerrit",
+      "kind": "individual",
+      "detail": "age 50, warehouse worker, resident of Elizabeth, NJ"
+    },
+    "period": {
+      "start": "2025-03-27",
+      "end": "2025-04-27"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Linnea Skerrit, individual, age 50, warehouse worker, resident of Elizabeth, NJ"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-238716, personal checking, opened 2014-12-05 at the Elizabeth, NJ branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-03-27 to 2025-04-27 (32 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "31"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "12 credits totalling $1,368,654.04"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "19 debits totalling $1,360,239.45"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$209,814.40 (incoming wire on 2025-04-18, counterparty Ironwillow Trading LLC)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$7,400.00"
+      },
+      {
+        "id": "F9",
+        "label": "Average monthly debits in the six months before the review period",
+        "value": "$4,330.00"
+      },
+      {
+        "id": "F10",
+        "label": "Incoming wires",
+        "value": "9 incoming wires totalling $1,361,483.41 from 3 senders"
+      },
+      {
+        "id": "F11",
+        "label": "Outgoing wires",
+        "value": "11 outgoing wires totalling $1,357,918.41 to 3 beneficiaries"
+      },
+      {
+        "id": "F12",
+        "label": "Largest wire counterparties by value",
+        "value": "Ironwillow Trading LLC; Larchmont Vale Group Ltd; Northquay Exports Ltd"
+      },
+      {
+        "id": "F13",
+        "label": "Wires for a whole number of thousands of dollars",
+        "value": "12 of 20"
+      },
+      {
+        "id": "F14",
+        "label": "Payees first paid during the review period",
+        "value": "3 payees receiving $1,357,918.41: Larchmont Vale Holdings LLC; Northquay Exports Ltd; Stagmoor Exports Ltd"
+      },
+      {
+        "id": "F15",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "1 day"
+      },
+      {
+        "id": "F16",
+        "label": "Debits as a share of credits in the review period",
+        "value": "99%"
+      },
+      {
+        "id": "F17",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "11 transactions"
+      },
+      {
+        "id": "F18",
+        "label": "Note on file",
+        "value": "Analyst note 2025-04-18: the customer was asked for contracts or invoices behind the transfers and did not provide any"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-03-29",
+        "type": "ach_in",
+        "amount": 2390.21,
+        "counterparty": "Rookery Lane Schools",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-03-30",
+        "type": "wire_in",
+        "amount": 25000.0,
+        "counterparty": "Ironwillow Trading LLC",
+        "channel": "wire",
+        "location": "Katy, TX"
+      },
+      {
+        "date": "2025-03-31",
+        "type": "wire_out",
+        "amount": 25000.0,
+        "counterparty": "Stagmoor Exports Ltd",
+        "channel": "wire",
+        "location": "Kent, WA"
+      },
+      {
+        "date": "2025-04-04",
+        "type": "wire_in",
+        "amount": 199000.0,
+        "counterparty": "Ironwillow Trading LLC",
+        "channel": "wire",
+        "location": "Katy, TX"
+      },
+      {
+        "date": "2025-04-05",
+        "type": "wire_out",
+        "amount": 199000.0,
+        "counterparty": "Larchmont Vale Holdings LLC",
+        "channel": "wire",
+        "location": "Coral Gables, FL"
+      },
+      {
+        "date": "2025-04-08",
+        "type": "card_purchase",
+        "amount": 148.3,
+        "counterparty": "Hardware store",
+        "channel": "card",
+        "location": "Elizabeth, NJ"
+      },
+      {
+        "date": "2025-04-08",
+        "type": "wire_in",
+        "amount": 203000.0,
+        "counterparty": "Larchmont Vale Group Ltd",
+        "channel": "wire",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-04-09",
+        "type": "ach_out",
+        "amount": 1715.0,
+        "counterparty": "Landlord",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-04-09",
+        "type": "wire_out",
+        "amount": 87107.98,
+        "counterparty": "Stagmoor Exports Ltd",
+        "channel": "wire",
+        "location": "Kent, WA"
+      },
+      {
+        "date": "2025-04-09",
+        "type": "wire_out",
+        "amount": 112847.02,
+        "counterparty": "Stagmoor Exports Ltd",
+        "channel": "wire",
+        "location": "Kent, WA"
+      },
+      {
+        "date": "2025-04-11",
+        "type": "wire_in",
+        "amount": 104000.0,
+        "counterparty": "Larchmont Vale Group Ltd",
+        "channel": "wire",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-04-12",
+        "type": "ach_in",
+        "amount": 2390.21,
+        "counterparty": "Rookery Lane Schools",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-04-12",
+        "type": "wire_out",
+        "amount": 46306.76,
+        "counterparty": "Northquay Exports Ltd",
+        "channel": "wire",
+        "location": "Newark, NJ"
+      },
+      {
+        "date": "2025-04-12",
+        "type": "wire_out",
+        "amount": 57173.24,
+        "counterparty": "Larchmont Vale Holdings LLC",
+        "channel": "wire",
+        "location": "Coral Gables, FL"
+      },
+      {
+        "date": "2025-04-13",
+        "type": "wire_in",
+        "amount": 72000.0,
+        "counterparty": "Larchmont Vale Group Ltd",
+        "channel": "wire",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-04-13",
+        "type": "wire_out",
+        "amount": 72000.0,
+        "counterparty": "Northquay Exports Ltd",
+        "channel": "wire",
+        "location": "Newark, NJ"
+      },
+      {
+        "date": "2025-04-18",
+        "type": "wire_in",
+        "amount": 209814.4,
+        "counterparty": "Ironwillow Trading LLC",
+        "channel": "wire",
+        "location": "Katy, TX"
+      },
+      {
+        "date": "2025-04-19",
+        "type": "wire_out",
+        "amount": 209814.4,
+        "counterparty": "Northquay Exports Ltd",
+        "channel": "wire",
+        "location": "Newark, NJ"
+      },
+      {
+        "date": "2025-04-21",
+        "type": "wire_in",
+        "amount": 182669.01,
+        "counterparty": "Larchmont Vale Group Ltd",
+        "channel": "wire",
+        "location": "Tacoma, WA"
+      },
+      {
+        "date": "2025-04-21",
+        "type": "wire_out",
+        "amount": 182669.01,
+        "counterparty": "Northquay Exports Ltd",
+        "channel": "wire",
+        "location": "Newark, NJ"
+      },
+      {
+        "date": "2025-04-23",
+        "type": "wire_in",
+        "amount": 164000.0,
+        "counterparty": "Greymoor Partners LLC",
+        "channel": "wire",
+        "location": "Evanston, IL"
+      },
+      {
+        "date": "2025-04-23",
+        "type": "wire_out",
+        "amount": 164000.0,
+        "counterparty": "Stagmoor Exports Ltd",
+        "channel": "wire",
+        "location": "Kent, WA"
+      },
+      {
+        "date": "2025-04-23",
+        "type": "wire_in",
+        "amount": 202000.0,
+        "counterparty": "Ironwillow Trading LLC",
+        "channel": "wire",
+        "location": "Katy, TX"
+      },
+      {
+        "date": "2025-04-23",
+        "type": "wire_out",
+        "amount": 202000.0,
+        "counterparty": "Larchmont Vale Holdings LLC",
+        "channel": "wire",
+        "location": "Coral Gables, FL"
+      },
+      {
+        "date": "2025-04-26",
+        "type": "ach_in",
+        "amount": 2390.21,
+        "counterparty": "Rookery Lane Schools",
+        "channel": "ach",
+        "location": "online"
+      }
+    ],
+    "query": "The account holder is a private individual who works as a warehouse worker.\nTurnover was many times higher than the customer told the bank to expect.\nLarge wires came in and large wires went out.\nMost of the wire amounts were round numbers.\nMoney left the account within a day or so of arriving, and very little stayed behind.\nSpending rose far above the customer's usual level and went to payees the customer had never paid before.\nExpected monthly activity stated at account opening: $7,400.00\nAverage monthly debits in the six months before the review period: $4,330.00\nIncoming wires: 9 incoming wires totalling $1,361,483.41 from 3 senders\nOutgoing wires: 11 outgoing wires totalling $1,357,918.41 to 3 beneficiaries\nWires for a whole number of thousands of dollars: 12 of 20\nPayees first paid during the review period: 3 payees receiving $1,357,918.41: Larchmont Vale Holdings LLC; Northquay Exports Ltd; Stagmoor Exports Ltd\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 1 day\nNote on file: Analyst note 2025-04-18: the customer was asked for contracts or invoices behind the transfers and did not provide any",
+    "retrieved": [
+      {
+        "chunk_id": "RPM-01",
+        "typology_id": "RPM",
+        "score": 0.1381,
+        "text": "Incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount"
+      },
+      {
+        "chunk_id": "VCO-01",
+        "typology_id": "VCO",
+        "score": 0.0883,
+        "text": "Frequent or large transfers from virtual-currency exchanges into a bank account, followed by prompt cash withdrawals or outgoing wires"
+      },
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.0771,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "RPM-05",
+        "typology_id": "RPM",
+        "score": 0.0728,
+        "text": "Wire amounts are large, round sums with vague or missing payment details"
+      },
+      {
+        "chunk_id": "RPM-06",
+        "typology_id": "RPM",
+        "score": 0.0722,
+        "text": "Volume of wire activity far exceeds what was anticipated when the account was opened"
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "RPM",
+        "score": 0.0918
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0704
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0627
+      },
+      {
+        "typology_id": "MUL",
+        "score": 0.0557
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.0466
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0399
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0391
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.031
+      }
+    ],
+    "written_for": "RPM",
+    "references": [
+      "RPM-00",
+      "RPM-01",
+      "RPM-05",
+      "RPM-06"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Linnea Skerrit, individual, age 50, warehouse worker, resident of Elizabeth, NJ.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "The largest wire counterparties by value were Ironwillow Trading LLC; Larchmont Vale Group Ltd; Northquay Exports Ltd.",
+        "citations": [
+          "F12"
+        ]
+      },
+      {
+        "text": "In that period the account received 12 credits totalling $1,368,654.04 and paid out 19 debits totalling $1,360,239.45.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $209,814.40 (incoming wire on 2025-04-18, counterparty Ironwillow Trading LLC).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-03-27 to 2025-04-27 (32 days), during which the account recorded 31 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-238716, personal checking, opened 2014-12-05 at the Elizabeth, NJ branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $7,400.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Rapid movement of funds through a pass-through account.",
+        "citations": [
+          "RPM-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: incoming wire transfers followed within a day or two by outgoing wire transfers of nearly the same amount.",
+        "citations": [
+          "RPM-01"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: wire amounts are large, round sums with vague or missing payment details.",
+        "citations": [
+          "RPM-05"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: volume of wire activity far exceeds what was anticipated when the account was opened.",
+        "citations": [
+          "RPM-06"
+        ]
+      },
+      {
+        "text": "A note on file reads: Analyst note 2025-04-18: the customer was asked for contracts or invoices behind the transfers and did not provide any.",
+        "citations": [
+          "F18"
+        ]
+      },
+      {
+        "text": "The account received 9 incoming wires totalling $1,361,483.41 from 3 senders.",
+        "citations": [
+          "F10"
+        ]
+      },
+      {
+        "text": "The account sent 11 outgoing wires totalling $1,357,918.41 to 3 beneficiaries.",
+        "citations": [
+          "F11"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 1 day.",
+        "citations": [
+          "F15"
+        ]
+      },
+      {
+        "text": "Debits in the review period came to 99% of credits.",
+        "citations": [
+          "F16"
+        ]
+      },
+      {
+        "text": "Of the wires, 12 of 20 were for a whole number of thousands of dollars.",
+        "citations": [
+          "F13"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  },
+  {
+    "id": "SYN-CASE-00053-MUL",
+    "title": "Synthetic case 12: Money mule account (individual subject)",
+    "typology_id": "MUL",
+    "subject": {
+      "name": "Mirela Emberly",
+      "kind": "individual",
+      "detail": "age 20, unemployed, resident of Oceanside, CA"
+    },
+    "period": {
+      "start": "2025-06-05",
+      "end": "2025-07-09"
+    },
+    "facts": [
+      {
+        "id": "F1",
+        "label": "Subject",
+        "value": "Mirela Emberly, individual, age 20, unemployed, resident of Oceanside, CA"
+      },
+      {
+        "id": "F2",
+        "label": "Account under review",
+        "value": "SYN-930120, personal checking, opened 2025-05-11 at the Oceanside, CA branch"
+      },
+      {
+        "id": "F3",
+        "label": "Review period",
+        "value": "2025-06-05 to 2025-07-09 (35 days)"
+      },
+      {
+        "id": "F4",
+        "label": "Transactions in the review period",
+        "value": "49"
+      },
+      {
+        "id": "F5",
+        "label": "Credits in the review period",
+        "value": "21 credits totalling $96,210.93"
+      },
+      {
+        "id": "F6",
+        "label": "Debits in the review period",
+        "value": "28 debits totalling $90,136.17"
+      },
+      {
+        "id": "F7",
+        "label": "Largest single transaction",
+        "value": "$14,449.47 (outgoing person-to-person transfer on 2025-07-01, counterparty Emrys Ashgrove)"
+      },
+      {
+        "id": "F8",
+        "label": "Expected monthly activity stated at account opening",
+        "value": "$600.00"
+      },
+      {
+        "id": "F9",
+        "label": "Account age at the start of the review period",
+        "value": "25 days"
+      },
+      {
+        "id": "F10",
+        "label": "Incoming wires",
+        "value": "3 incoming wires totalling $9,736.56 from 3 senders"
+      },
+      {
+        "id": "F11",
+        "label": "Largest wire counterparties by value",
+        "value": "Saskia Pennywhistle; Thaddeus Hollowbrook; Petra Winterbourne"
+      },
+      {
+        "id": "F12",
+        "label": "Credits from individuals",
+        "value": "21 credits totalling $96,210.93 from 13 individuals"
+      },
+      {
+        "id": "F13",
+        "label": "Payments to individuals",
+        "value": "16 payments totalling $87,619.19 to Emrys Ashgrove; Lucan Fennimore"
+      },
+      {
+        "id": "F14",
+        "label": "Median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more",
+        "value": "1 day"
+      },
+      {
+        "id": "F15",
+        "label": "Debits as a share of credits in the review period",
+        "value": "94%"
+      },
+      {
+        "id": "F16",
+        "label": "Payroll, rent, utility and card transactions in the review period",
+        "value": "12 transactions"
+      },
+      {
+        "id": "F17",
+        "label": "Note on file",
+        "value": "Analyst note 2025-07-06: the account holder said the incoming payments were for a work-from-home job found online"
+      }
+    ],
+    "transactions": [
+      {
+        "date": "2025-06-11",
+        "type": "p2p_in",
+        "amount": 3200.0,
+        "counterparty": "Linnea Wrenfield",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-13",
+        "type": "ach_in",
+        "amount": 4150.0,
+        "counterparty": "Tessa Pennywhistle",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-13",
+        "type": "p2p_in",
+        "amount": 8500.0,
+        "counterparty": "Mirela Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-15",
+        "type": "p2p_out",
+        "amount": 3779.4,
+        "counterparty": "Lucan Fennimore",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-15",
+        "type": "p2p_out",
+        "amount": 7740.94,
+        "counterparty": "Emrys Ashgrove",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-17",
+        "type": "p2p_out",
+        "amount": 3550.5,
+        "counterparty": "Lucan Fennimore",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-19",
+        "type": "p2p_in",
+        "amount": 7100.59,
+        "counterparty": "Cormac Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-19",
+        "type": "p2p_out",
+        "amount": 6466.5,
+        "counterparty": "Lucan Fennimore",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-21",
+        "type": "p2p_in",
+        "amount": 3285.04,
+        "counterparty": "Alaric Fennimore",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-23",
+        "type": "p2p_out",
+        "amount": 2991.68,
+        "counterparty": "Lucan Fennimore",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-23",
+        "type": "ach_in",
+        "amount": 3250.0,
+        "counterparty": "Thaddeus Marrowby",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-25",
+        "type": "wire_in",
+        "amount": 8250.0,
+        "counterparty": "Saskia Pennywhistle",
+        "channel": "wire",
+        "location": "United States"
+      },
+      {
+        "date": "2025-06-25",
+        "type": "p2p_in",
+        "amount": 5891.72,
+        "counterparty": "Tessa Hollowbrook",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-26",
+        "type": "p2p_in",
+        "amount": 8400.0,
+        "counterparty": "Petra Winterbourne",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-27",
+        "type": "p2p_out",
+        "amount": 12878.85,
+        "counterparty": "Emrys Ashgrove",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-28",
+        "type": "p2p_out",
+        "amount": 7649.87,
+        "counterparty": "Emrys Ashgrove",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-28",
+        "type": "p2p_in",
+        "amount": 7775.23,
+        "counterparty": "Alaric Fennimore",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-29",
+        "type": "ach_in",
+        "amount": 3634.34,
+        "counterparty": "Thaddeus Marrowby",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-30",
+        "type": "p2p_in",
+        "amount": 8113.11,
+        "counterparty": "Mirela Skerrit",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-06-30",
+        "type": "ach_in",
+        "amount": 7753.24,
+        "counterparty": "Mirela Skerrit",
+        "channel": "ach",
+        "location": "online"
+      },
+      {
+        "date": "2025-07-01",
+        "type": "p2p_out",
+        "amount": 10390.69,
+        "counterparty": "Emrys Ashgrove",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-07-01",
+        "type": "p2p_out",
+        "amount": 14449.47,
+        "counterparty": "Emrys Ashgrove",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-07-02",
+        "type": "p2p_in",
+        "amount": 3600.0,
+        "counterparty": "Thaddeus Marrowby",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-07-03",
+        "type": "p2p_in",
+        "amount": 5772.45,
+        "counterparty": "Thaddeus Hollowbrook",
+        "channel": "p2p",
+        "location": "online"
+      },
+      {
+        "date": "2025-07-03",
+        "type": "p2p_out",
+        "amount": 8535.48,
+        "counterparty": "Lucan Fennimore",
+        "channel": "p2p",
+        "location": "online"
+      }
+    ],
+    "query": "The account holder is a private individual, unemployed.\nThe customer is a young adult.\nThe account was opened shortly before the activity began.\nTurnover was many times higher than the customer told the bank to expect.\nMany different individuals sent money to the account, and nothing links them to each other or to the customer.\nMoney left the account within a day or so of arriving, and very little stayed behind.\nExpected monthly activity stated at account opening: $600.00\nAccount age at the start of the review period: 25 days\nIncoming wires: 3 incoming wires totalling $9,736.56 from 3 senders\nCredits from individuals: 21 credits totalling $96,210.93 from 13 individuals\nPayments to individuals: 16 payments totalling $87,619.19 to Emrys Ashgrove; Lucan Fennimore\nMedian time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more: 1 day\nNote on file: Analyst note 2025-07-06: the account holder said the incoming payments were for a work-from-home job found online",
+    "retrieved": [
+      {
+        "chunk_id": "FUN-01",
+        "typology_id": "FUN",
+        "score": 0.0927,
+        "text": "Cash deposits made into the account at branches in states or cities far from where the account was opened and where the account holder lives or works"
+      },
+      {
+        "chunk_id": "MUL-04",
+        "typology_id": "MUL",
+        "score": 0.0804,
+        "text": "Account activity is inconsistent with the holder's age, occupation or income, for example a student or unemployed person handling large sums"
+      },
+      {
+        "chunk_id": "VCO-03",
+        "typology_id": "VCO",
+        "score": 0.0736,
+        "text": "Customer appears to operate as an unregistered peer-to-peer exchanger: many small incoming payments from individuals matched by transfers to exchanges"
+      },
+      {
+        "chunk_id": "MUL-03",
+        "typology_id": "MUL",
+        "score": 0.0735,
+        "text": "The account holder retains a small portion of each incoming payment, consistent with a commission"
+      },
+      {
+        "chunk_id": "FUN-02",
+        "typology_id": "FUN",
+        "score": 0.0703,
+        "text": "Deposits made by individuals who are not account signers, often anonymous third parties who hold only the account number"
+      }
+    ],
+    "ranking": [
+      {
+        "typology_id": "MUL",
+        "score": 0.0956
+      },
+      {
+        "typology_id": "FUN",
+        "score": 0.0664
+      },
+      {
+        "typology_id": "VCO",
+        "score": 0.0662
+      },
+      {
+        "typology_id": "EFE",
+        "score": 0.0561
+      },
+      {
+        "typology_id": "RPM",
+        "score": 0.0524
+      },
+      {
+        "typology_id": "STR",
+        "score": 0.0403
+      },
+      {
+        "typology_id": "TBM",
+        "score": 0.033
+      },
+      {
+        "typology_id": "SHL",
+        "score": 0.0278
+      }
+    ],
+    "written_for": "MUL",
+    "references": [
+      "MUL-00",
+      "MUL-04",
+      "MUL-03",
+      "MUL-01"
+    ],
+    "narrative": [
+      {
+        "text": "The subject of this report is Mirela Emberly, individual, age 20, unemployed, resident of Oceanside, CA.",
+        "citations": [
+          "F1"
+        ]
+      },
+      {
+        "text": "In that period the account received 21 credits totalling $96,210.93 and paid out 28 debits totalling $90,136.17.",
+        "citations": [
+          "F5",
+          "F6"
+        ]
+      },
+      {
+        "text": "The largest single transaction was $14,449.47 (outgoing person-to-person transfer on 2025-07-01, counterparty Emrys Ashgrove).",
+        "citations": [
+          "F7"
+        ]
+      },
+      {
+        "text": "The review covers 2025-06-05 to 2025-07-09 (35 days), during which the account recorded 49 transactions.",
+        "citations": [
+          "F3",
+          "F4"
+        ]
+      },
+      {
+        "text": "The account had been open for 25 days when the review period began.",
+        "citations": [
+          "F9"
+        ]
+      },
+      {
+        "text": "The activity took place in account SYN-930120, personal checking, opened 2025-05-11 at the Oceanside, CA branch.",
+        "citations": [
+          "F2"
+        ]
+      },
+      {
+        "text": "At account opening the customer stated expected monthly activity of $600.00.",
+        "citations": [
+          "F8"
+        ]
+      },
+      {
+        "text": "The activity in this account resembles the reference typology Money mule account.",
+        "citations": [
+          "MUL-00"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: account activity is inconsistent with the holder's age, occupation or income, for example a student or unemployed person handling large sums.",
+        "citations": [
+          "MUL-04"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: the account holder retains a small portion of each incoming payment, consistent with a commission.",
+        "citations": [
+          "MUL-03"
+        ]
+      },
+      {
+        "text": "A red flag from that reference that may apply is: a personal account, often newly opened, receives deposits or transfers from multiple unrelated individuals.",
+        "citations": [
+          "MUL-01"
+        ]
+      },
+      {
+        "text": "A note on file reads: Analyst note 2025-07-06: the account holder said the incoming payments were for a work-from-home job found online.",
+        "citations": [
+          "F17"
+        ]
+      },
+      {
+        "text": "From individuals the account received 21 credits totalling $96,210.93 from 13 individuals.",
+        "citations": [
+          "F12"
+        ]
+      },
+      {
+        "text": "The account made 16 payments totalling $87,619.19 to Emrys Ashgrove; Lucan Fennimore.",
+        "citations": [
+          "F13"
+        ]
+      },
+      {
+        "text": "The median time from a credit of $1,000.00 or more to the next debit of $1,000.00 or more was 1 day.",
+        "citations": [
+          "F14"
+        ]
+      },
+      {
+        "text": "Debits in the review period came to 94% of credits.",
+        "citations": [
+          "F15"
+        ]
+      }
+    ],
+    "verification": {
+      "passed": true,
+      "findings": []
+    }
+  }
+]

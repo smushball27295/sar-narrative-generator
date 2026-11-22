@@ -1,0 +1,283 @@
+{
+  "n_cases": 200,
+  "seed": 1000,
+  "generated_at": "2026-11-22T19:59:21Z",
+  "data": "synthetic",
+  "config": {
+    "n_cases": 200,
+    "seed": 1000,
+    "balanced": true,
+    "generator": "template",
+    "backend": "tfidf",
+    "query_mode": "both",
+    "ranking": "document"
+  },
+  "overall": {
+    "n_cases": 200,
+    "retrieval_hit_at_1": 0.78,
+    "retrieval_hit_at_3": 0.975,
+    "citation_coverage": 1.0,
+    "fact_inclusion_rate": 0.8868,
+    "verifier_pass_rate": 1.0,
+    "mean_sentences": 15.73
+  },
+  "per_typology": {
+    "STR": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 0.8,
+      "retrieval_hit_at_3": 1.0,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 0.9435,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 14.48
+    },
+    "FUN": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 0.96,
+      "retrieval_hit_at_3": 1.0,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 0.974,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 16.68
+    },
+    "RPM": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 1.0,
+      "retrieval_hit_at_3": 1.0,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 1.0,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 17.08
+    },
+    "MUL": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 0.4,
+      "retrieval_hit_at_3": 0.92,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 0.7075,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 15.16
+    },
+    "TBM": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 1.0,
+      "retrieval_hit_at_3": 1.0,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 1.0,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 16.08
+    },
+    "SHL": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 0.72,
+      "retrieval_hit_at_3": 1.0,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 0.878,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 17.28
+    },
+    "EFE": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 0.36,
+      "retrieval_hit_at_3": 0.88,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 0.5229,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 14.08
+    },
+    "VCO": {
+      "n_cases": 25,
+      "retrieval_hit_at_1": 1.0,
+      "retrieval_hit_at_3": 1.0,
+      "citation_coverage": 1.0,
+      "fact_inclusion_rate": 1.0,
+      "verifier_pass_rate": 1.0,
+      "mean_sentences": 15.0
+    }
+  },
+  "retrieval_misses": [
+    {
+      "label": "EFE",
+      "predicted": "VCO",
+      "count": 11
+    },
+    {
+      "label": "MUL",
+      "predicted": "VCO",
+      "count": 8
+    },
+    {
+      "label": "MUL",
+      "predicted": "FUN",
+      "count": 7
+    },
+    {
+      "label": "SHL",
+      "predicted": "RPM",
+      "count": 7
+    },
+    {
+      "label": "EFE",
+      "predicted": "MUL",
+      "count": 5
+    },
+    {
+      "label": "STR",
+      "predicted": "FUN",
+      "count": 5
+    },
+    {
+      "label": "FUN",
+      "predicted": "STR",
+      "count": 1
+    }
+  ],
+  "corruption": {
+    "amount_changed": {
+      "applicable": 200,
+      "caught": 200,
+      "catch_rate": 1.0,
+      "description": "a dollar amount is altered",
+      "expected_blind_spot": false
+    },
+    "date_changed": {
+      "applicable": 200,
+      "caught": 200,
+      "catch_rate": 1.0,
+      "description": "a date is moved by a few days",
+      "expected_blind_spot": false
+    },
+    "count_changed": {
+      "applicable": 200,
+      "caught": 193,
+      "catch_rate": 0.965,
+      "description": "a count is raised by 1 to 3",
+      "expected_blind_spot": false
+    },
+    "name_invented": {
+      "applicable": 200,
+      "caught": 200,
+      "catch_rate": 1.0,
+      "description": "a person or company name is replaced with one that is not in the case",
+      "expected_blind_spot": false
+    },
+    "citation_removed": {
+      "applicable": 200,
+      "caught": 200,
+      "catch_rate": 1.0,
+      "description": "all citations are stripped from one sentence",
+      "expected_blind_spot": false
+    },
+    "citation_fabricated": {
+      "applicable": 200,
+      "caught": 200,
+      "catch_rate": 1.0,
+      "description": "a sentence cites an id that does not exist",
+      "expected_blind_spot": false
+    },
+    "citation_swapped": {
+      "applicable": 200,
+      "caught": 199,
+      "catch_rate": 0.995,
+      "description": "a sentence cites a different, real fact",
+      "expected_blind_spot": false
+    },
+    "values_swapped": {
+      "applicable": 200,
+      "caught": 0,
+      "catch_rate": 0.0,
+      "description": "two amounts or two counts trade places inside one sentence",
+      "expected_blind_spot": true
+    },
+    "direction_flipped": {
+      "applicable": 200,
+      "caught": 0,
+      "catch_rate": 0.0,
+      "description": "a direction word is reversed, for example credits to debits",
+      "expected_blind_spot": true
+    }
+  },
+  "retrieval_ablation": [
+    {
+      "name": "one unweighted string of all facts",
+      "backend": "tfidf",
+      "query_mode": "naive",
+      "ranking": "chunks",
+      "background_idf": false,
+      "retrieval_hit_at_1": 0.415,
+      "retrieval_hit_at_3": 0.77
+    },
+    {
+      "name": "behaviour description only",
+      "backend": "tfidf",
+      "query_mode": "behaviour",
+      "ranking": "chunks",
+      "background_idf": false,
+      "retrieval_hit_at_1": 0.645,
+      "retrieval_hit_at_3": 0.9
+    },
+    {
+      "name": "weighted facts only",
+      "backend": "tfidf",
+      "query_mode": "facts",
+      "ranking": "chunks",
+      "background_idf": false,
+      "retrieval_hit_at_1": 0.43,
+      "retrieval_hit_at_3": 0.79
+    },
+    {
+      "name": "weighted facts + behaviour",
+      "backend": "tfidf",
+      "query_mode": "both",
+      "ranking": "chunks",
+      "background_idf": false,
+      "retrieval_hit_at_1": 0.555,
+      "retrieval_hit_at_3": 0.905
+    },
+    {
+      "name": "+ rank whole documents",
+      "backend": "tfidf",
+      "query_mode": "both",
+      "ranking": "document",
+      "background_idf": false,
+      "retrieval_hit_at_1": 0.645,
+      "retrieval_hit_at_3": 0.92
+    },
+    {
+      "name": "+ IDF from unlabelled cases (default)",
+      "backend": "tfidf",
+      "query_mode": "both",
+      "ranking": "document",
+      "background_idf": true,
+      "retrieval_hit_at_1": 0.78,
+      "retrieval_hit_at_3": 0.975
+    },
+    {
+      "name": "default without stemming",
+      "backend": "tfidf-nostem",
+      "query_mode": "both",
+      "ranking": "document",
+      "background_idf": true,
+      "retrieval_hit_at_1": 0.685,
+      "retrieval_hit_at_3": 0.99
+    },
+    {
+      "name": "sentence-transformers, behaviour only",
+      "backend": "sentence-transformers",
+      "query_mode": "behaviour",
+      "ranking": "document",
+      "background_idf": false,
+      "retrieval_hit_at_1": 0.61,
+      "retrieval_hit_at_3": 0.98
+    },
+    {
+      "name": "sentence-transformers, facts + behaviour",
+      "backend": "sentence-transformers",
+      "query_mode": "both",
+      "ranking": "document",
+      "background_idf": false,
+      "retrieval_hit_at_1": 0.59,
+      "retrieval_hit_at_3": 0.935
+    }
+  ]
+}
